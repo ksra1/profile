@@ -55,6 +55,20 @@ const Experience = () => {
       period: "May 2010 – December 2012",
       location: "Michigan, USA",
       description: "Led technology implementations for global marketing campaigns, delivering innovative digital solutions for enterprise clients across multiple industries and markets."
+    },
+    {
+      title: "Software Engineering Manager",
+      company: "Analysts International Corporation",
+      period: "Oct 2008 – Apr 2010",
+      location: "Michigan, USA",
+      description: "Led technology teams and managed application sustainment projects."
+    },
+    {
+      title: "Systems Analyst",
+      company: "Tech Mahindra (formerly Satyam Computer Services Ltd) ",
+      period: "Jun 2004 – Sep 2008",
+      location: "Michigan, USA",
+      description: "Implemented software management systems for portfolio management."
     }
   ];
 
