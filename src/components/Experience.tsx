@@ -18,7 +18,7 @@ const Experience = () => {
     },
     {
       title: "Senior Engineering Manager / Director of Engineering",
-      company: "Leading Technology Consulting Firm",
+      company: "V2Soft Inc (Technology Consulting Firm)",
       period: "May 2016 – May 2024",
       location: "Michigan, USA",
       description: "Directed a team of 15 engineers to deliver scalable eCommerce platforms and enterprise solutions, generating $45M+ in annual revenue through strategic technology implementations and innovative development practices.",
