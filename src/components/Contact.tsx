@@ -98,7 +98,7 @@ const Contact = () => {
             </div>
 
             <div className="text-center text-blue-300">
-              <p>&copy; 2024 Sravan Kumar Kollapudi. All rights reserved.</p>
+              <p>&copy; 2025 Sravan Kumar Kollapudi. All rights reserved.</p>
             </div>
           </div>
         </div>
