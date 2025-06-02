@@ -4,34 +4,34 @@ import { TrendingUp, Shield, Users, Award, Lightbulb, Globe } from 'lucide-react
 const CareerHighlights = () => {
   const highlights = [
     {
-      icon: <Lightbulb className="w-8 h-8" />,
-      title: "AI-Driven Marketing Innovation",
-      description: "Leveraged AI to develop advanced marketing solutions, fostering an AI mindset across teams to implement automated content strategies using Adobe Experience Cloud, enhancing personalization and operational efficiency."
+      icon: <Users className="w-8 h-8" />,
+      title: "Global Team Leadership",
+      description: "Built and mentored global development teams of 15+ engineers across multiple time zones, fostering technical excellence and achieving 98% on-time project delivery while maintaining 90% team retention rates."
     },
     {
       icon: <TrendingUp className="w-8 h-8" />,
       title: "Strategic P&L Management",
-      description: "At V2Soft, managed P&L for a high-revenue eCommerce platform, driving 700% YOY growth through strategic Adobe Experience Cloud implementations, while overseeing $20M+ in project budgets."
+      description: "Managed P&L for high-revenue eCommerce platforms, driving 700% YOY growth through strategic technology implementations while overseeing $20M+ in project budgets and achieving exceptional business outcomes."
     },
     {
       icon: <Shield className="w-8 h-8" />,
-      title: "Adobe Experience Cloud Expertise",
-      description: "Led enterprise-scale digital transformations using Adobe Experience Manager, Adobe Analytics, Adobe Target, Adobe Campaign, and Adobe Experience Platform, optimizing customer experience and multi-solution use cases."
+      title: "Enterprise Digital Transformation",
+      description: "Led enterprise-scale digital transformation initiatives for Fortune 500 companies, architecting scalable solutions that optimize customer experience and drive measurable business value across multiple technology platforms."
     },
     {
-      icon: <Users className="w-8 h-8" />,
-      title: "Executive Team Leadership",
-      description: "Built and mentored global development and operations teams, fostering executive leadership and enabling high-performance delivery through Agile methodologies, DevOps, and SRE practices."
+      icon: <Lightbulb className="w-8 h-8" />,
+      title: "Technical Innovation Leadership",
+      description: "Spearheaded the adoption of cutting-edge technologies including cloud-native architectures, microservices, and AI-driven solutions, improving system performance by 40% and operational efficiency by 80%."
     },
     {
       icon: <Award className="w-8 h-8" />,
-      title: "High-Impact E-Commerce Solutions",
-      description: "Spearheaded scalable commerce platforms for Ford Motor Company, exceeding SLAs/SLOs and supporting significant traffic surges during major product launches without additional capacity requirements."
+      title: "High-Impact Project Delivery",
+      description: "Successfully delivered complex enterprise projects for major automotive and educational institutions, exceeding SLAs/SLOs and supporting significant traffic surges during critical business events without service disruption."
     },
     {
       icon: <Globe className="w-8 h-8" />,
-      title: "Process Automation & Cost Efficiency",
-      description: "Automated 90% of platform support and operations at Ford and APUS, reducing costs by 50% and increasing productivity by 80%, while developing systems that decreased content management costs by 60%."
+      title: "Process Automation & Efficiency",
+      description: "Automated 90% of platform operations and support processes, reducing operational costs by 50% while increasing team productivity by 80%, and implementing systems that decreased overall management overhead by 60%."
     }
   ];
 
@@ -39,9 +39,9 @@ const CareerHighlights = () => {
     <section id="highlights" className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Career Highlights</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Leadership Highlights</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Key achievements and innovations that demonstrate exceptional leadership and technical expertise
+            Key achievements demonstrating exceptional engineering leadership and strategic technology management
           </p>
         </div>
 

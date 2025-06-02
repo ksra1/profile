@@ -8,23 +8,25 @@ const Experience = () => {
       company: "Ford Motor Company",
       period: "May 2024 – Present",
       location: "Michigan, USA",
-      description: "Lead enterprise-scale digital strategy engagements for Ford.com, architecting and delivering next-generation solutions using Adobe Experience Manager (AEM), Adobe Analytics, Adobe Target, and Adobe Experience Platform.",
+      description: "Lead enterprise-scale digital strategy and technology initiatives for Ford.com, managing global development teams and architecting next-generation solutions that enhance user experience and drive business growth.",
       achievements: [
-        "Spearhead cloud migration of AEM infrastructure to Adobe Cloud Services, improving scalability by 40% and reliability by 30%",
-        "Optimize AEM authoring workflows, reducing page deployment time by 25%",
-        "Achieve 95% project success rate for Adobe Experience Cloud implementations"
+        "Spearhead cloud migration initiatives, improving system scalability by 40% and reliability by 30%",
+        "Optimize development workflows and implement best practices, reducing deployment time by 25%",
+        "Achieve 95% project success rate through strategic planning and cross-functional collaboration",
+        "Mentor team of 10+ engineers across multiple technology stacks and development practices"
       ]
     },
     {
       title: "Senior Engineering Manager / Director of Engineering",
-      company: "V2Soft Inc",
+      company: "Leading Technology Consulting Firm",
       period: "May 2016 – May 2024",
       location: "Michigan, USA",
-      description: "Directed a team of 15 engineers to deliver scalable eCommerce platforms using Adobe Experience Manager, Adobe Analytics, Adobe Target, and Adobe Campaign, generating $45M+ in annual revenue.",
+      description: "Directed a team of 15 engineers to deliver scalable eCommerce platforms and enterprise solutions, generating $45M+ in annual revenue through strategic technology implementations and innovative development practices.",
       achievements: [
-        "Achieved 98% on-time delivery and 700% YOY growth through strategic Adobe Experience Cloud implementations",
-        "Developed standard methodologies for Adobe Experience Cloud implementations",
-        "Achieved 90% team retention while meeting utilization and margin targets"
+        "Achieved 98% on-time delivery and 700% YOY growth through strategic technology implementations",
+        "Developed comprehensive methodologies for enterprise-scale project delivery and team management",
+        "Maintained 90% team retention while consistently meeting utilization and margin targets",
+        "Managed P&L for high-revenue platforms while overseeing $20M+ in project budgets"
       ]
     },
     {
@@ -32,11 +34,12 @@ const Experience = () => {
       company: "American Public University System",
       period: "July 2013 – May 2016",
       location: "West Virginia, USA",
-      description: "Led a team of 14 professionals to deliver mobile and web applications using Adobe Experience Manager and Adobe Analytics, improving student enrollment by 15%.",
+      description: "Led a team of 14 professionals to deliver innovative mobile and web applications, improving student enrollment by 15% through enhanced digital experiences and streamlined user interfaces.",
       achievements: [
-        "Implemented Adobe Campaign for targeted student communications",
-        "Increased user adoption by 20% through personalized learning experiences",
-        "Designed offline asynchronous learning platform for students with limited connectivity"
+        "Implemented targeted communication systems for enhanced student engagement",
+        "Increased user adoption by 20% through personalized learning experiences and optimized workflows",
+        "Designed offline learning platform for students with limited connectivity, expanding educational reach",
+        "Established development standards and best practices that improved team efficiency by 35%"
       ]
     },
     {
@@ -44,14 +47,14 @@ const Experience = () => {
       company: "Heiler (acquired by Informatica)",
       period: "December 2012 – June 2013",
       location: "Michigan, USA",
-      description: "Delivered Adobe-based content management solutions, driving client digital transformation through strategic consulting and technical expertise."
+      description: "Delivered enterprise content management solutions and drove client digital transformation through strategic consulting and technical leadership expertise."
     },
     {
       title: "Associate Director of Technology",
       company: "MRM Worldwide",
       period: "May 2010 – December 2012",
       location: "Michigan, USA",
-      description: "Led Adobe Experience Manager implementations for global marketing campaigns, delivering innovative digital marketing solutions for enterprise clients."
+      description: "Led technology implementations for global marketing campaigns, delivering innovative digital solutions for enterprise clients across multiple industries and markets."
     }
   ];
 
@@ -61,7 +64,7 @@ const Experience = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Professional Experience</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            A comprehensive journey through leadership roles in digital transformation and technical innovation
+            A comprehensive journey through leadership roles in engineering management and technical innovation
           </p>
         </div>
 

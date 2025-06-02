@@ -22,11 +22,11 @@ const Hero = () => {
             Sravan Kumar Kollapudi
           </h1>
           <h2 className="text-2xl md:text-3xl font-light mb-8 text-blue-200">
-            Strategic Technical Leader & Digital Transformation Expert
+            Senior Engineering Manager & Technical Leader
           </h2>
           <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">
-            20+ years driving enterprise-scale digital transformation through Adobe Experience Cloud, 
-            Akamai technologies, and innovative solutions that deliver exceptional business value.
+            20+ years leading global engineering teams and driving enterprise-scale digital transformation 
+            initiatives that deliver exceptional business value and measurable results.
           </p>
           
           <div className="flex flex-wrap justify-center items-center gap-6 mb-12 text-lg">
