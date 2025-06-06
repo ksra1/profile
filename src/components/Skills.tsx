@@ -17,6 +17,19 @@ const Skills = () => {
       ]
     },
     {
+      icon: <Zap className="w-8 h-8" />,
+      title: "Akamai & Performance",
+      skills: [
+        "API Security (WAF, API Gateways)",
+        "Web Performance (DNS, HTTP/HTTPS)",
+        "SSL/TLS Configuration",
+        "CDN Optimization",
+        "RESTful APIs",
+        "GraphQL",
+        "API Management"
+      ]
+    },
+    {
       icon: <Shield className="w-8 h-8" />,
       title: "Adobe Experience Cloud",
       skills: [
@@ -28,19 +41,6 @@ const Skills = () => {
         "Adobe Audience Manager",
         "Adobe Experience Platform",
         "Adobe Journey Optimizer"
-      ]
-    },
-    {
-      icon: <Zap className="w-8 h-8" />,
-      title: "Akamai & Performance",
-      skills: [
-        "API Security (WAF, API Gateways)",
-        "Web Performance (DNS, HTTP/HTTPS)",
-        "SSL/TLS Configuration",
-        "CDN Optimization",
-        "RESTful APIs",
-        "GraphQL",
-        "API Management"
       ]
     },
     {
