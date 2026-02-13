@@ -22,7 +22,7 @@ const Experience = () => {
       company: "V2Soft Inc (Technology Consulting Firm)",
       period: "May 2016 – May 2024",
       location: "Michigan, USA",
-      description: "Directed a team of 15 engineers to deliver scalable Adobe Experience Cloud solutions and enterprise eCommerce platforms, generating $45M+ in annual revenue through strategic technology implementations.",
+      description: "Directed and mentored a global team of 30+ professionals to deliver scalable Adobe Experience Cloud solutions and enterprise eCommerce platforms, generating $45M+ in annual revenue.",
       achievements: [
         "Implemented Adobe Workfront across global teams to streamline project management and resource allocation",
         "Developed and deployed custom AI agents to optimize P&L reporting and project metadata analysis",
@@ -36,7 +36,7 @@ const Experience = () => {
       company: "American Public University System",
       period: "July 2013 – May 2016",
       location: "West Virginia, USA",
-      description: "Led a team of 14 professionals to deliver innovative mobile and web applications, improving student enrollment by 15% through enhanced digital experiences and streamlined user interfaces.",
+      description: "Led and mentored a team of 20+ professionals to deliver innovative mobile and web applications, improving student enrollment by 15% through enhanced digital experiences and streamlined user interfaces.",
       achievements: [
         "Implemented targeted communication systems for enhanced student engagement",
         "Increased user adoption by 20% through personalized learning experiences and optimized workflows",
