@@ -4,7 +4,7 @@ import { Calendar, MapPin, Users } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: "Engineering Manager",
+      title: "Engineering Manager / Principal Software Engineer",
       company: "Ford Motor Company",
       period: "May 2024 – Present",
       location: "Michigan, USA",
