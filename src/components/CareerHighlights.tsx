@@ -1,8 +1,23 @@
 
-import { TrendingUp, Shield, Users, Award, Lightbulb, Globe } from 'lucide-react';
+import { TrendingUp, Shield, Users, Award, Lightbulb, Globe, Bot } from 'lucide-react';
 
 const CareerHighlights = () => {
   const highlights = [
+    {
+      icon: <Bot className="w-8 h-8" />,
+      title: "Agentic AI & MCP Integration",
+      description: "Pioneered the use of Model Context Protocol (MCP) and multi-agent systems to automate enterprise workflows, significantly reducing manual overhead and enhancing decision-making capabilities through LLM-driven intelligence."
+    },
+    {
+      icon: <Shield className="w-8 h-8" />,
+      title: "Adobe Ecosystem Excellence",
+      description: "Spearheaded enterprise-wide adoption of Adobe Experience Manager (AEM), Edge Delivery Services, and GenStudio, revolutionizing content delivery and achieving 40% faster time-to-market for global digital campaigns."
+    },
+    {
+      icon: <Lightbulb className="w-8 h-8" />,
+      title: "GenAI Strategy & Implementation",
+      description: "Driving the strategic roadmap for Generative AI adoption across enterprise platforms, implementing RAG architectures and LLM-powered features that enhance customer experience and operational intelligence."
+    },
     {
       icon: <Users className="w-8 h-8" />,
       title: "Global Team Leadership",
@@ -14,24 +29,9 @@ const CareerHighlights = () => {
       description: "Managed P&L for high-revenue eCommerce platforms, driving 700% YOY growth through strategic technology implementations while overseeing $20M+ in project budgets and achieving exceptional business outcomes."
     },
     {
-      icon: <Shield className="w-8 h-8" />,
-      title: "Enterprise Digital Transformation",
-      description: "Led enterprise-scale digital transformation initiatives for Fortune 500 companies, architecting scalable solutions that optimize customer experience and drive measurable business value across multiple technology platforms."
-    },
-    {
-      icon: <Lightbulb className="w-8 h-8" />,
-      title: "Technical Innovation Leadership",
-      description: "Spearheaded the adoption of cutting-edge technologies including cloud-native architectures, microservices, and AI-driven solutions, improving system performance by 40% and operational efficiency by 80%."
-    },
-    {
       icon: <Award className="w-8 h-8" />,
       title: "High-Impact Project Delivery",
       description: "Successfully delivered complex enterprise projects for major automotive and educational institutions, exceeding SLAs/SLOs and supporting significant traffic surges during critical business events without service disruption."
-    },
-    {
-      icon: <Globe className="w-8 h-8" />,
-      title: "Process Automation & Efficiency",
-      description: "Automated 90% of platform operations and support processes, reducing operational costs by 50% while increasing team productivity by 80%, and implementing systems that decreased overall management overhead by 60%."
     }
   ];
 

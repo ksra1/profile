@@ -9,8 +9,9 @@ const ProfessionalSummary = () => {
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               <strong className="text-blue-600">Strategic Engineering Leader</strong> with over 20 years of experience 
               driving enterprise-scale digital transformation and managing global development teams. Expert in leading 
-              high-value technical initiatives, defining digital strategies, and delivering scalable, customer-centric 
-              solutions across diverse technology stacks.
+              high-value technical initiatives, defining digital strategies, and delivering scalable solutions across 
+              the <strong className="text-blue-600">Adobe Experience Cloud ecosystem</strong> (AEM, Edge Delivery Services, GenStudio) 
+              and <strong className="text-blue-600">cutting-edge AI technologies</strong> (MCP, Agentic Workflows, and Generative AI).
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               Proven success in managing cross-functional teams of 15+ engineers, fostering executive client relationships, 

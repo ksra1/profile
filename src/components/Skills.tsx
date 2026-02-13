@@ -1,8 +1,21 @@
 
-import { Code, Users, Shield, Cloud, Database, Zap } from 'lucide-react';
+import { Code, Users, Shield, Cloud, Database, Zap, Bot } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
+    {
+      icon: <Bot className="w-8 h-8" />,
+      title: "AI & Agentic Systems",
+      skills: [
+        "Model Context Protocol (MCP)",
+        "Agentic Workflows & Multi-Agent Systems",
+        "Large Language Models (LLMs)",
+        "Prompt Engineering",
+        "RAG (Retrieval-Augmented Generation)",
+        "LangChain & AutoGen",
+        "AI-Driven Automation"
+      ]
+    },
     {
       icon: <Users className="w-8 h-8" />,
       title: "Leadership & Management",
@@ -34,13 +47,14 @@ const Skills = () => {
       title: "Adobe Experience Cloud",
       skills: [
         "Adobe Experience Manager (AEM)",
-        "Adobe Analytics",
-        "Adobe Target",
-        "Adobe Campaign",
-        "Adobe Marketo Engage",
+        "Edge Delivery Services",
+        "Adobe GenStudio & Firefly",
+        "Adobe Workfront",
+        "Adobe Experience Platform (AEP)",
+        "Adobe Journey Optimizer (AJO)",
+        "Adobe Analytics & Target",
         "Adobe Audience Manager",
-        "Adobe Experience Platform",
-        "Adobe Journey Optimizer"
+        "Adobe Marketo Engage"
       ]
     },
     {

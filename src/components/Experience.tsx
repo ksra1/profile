@@ -8,12 +8,13 @@ const Experience = () => {
       company: "Ford Motor Company",
       period: "May 2024 – Present",
       location: "Michigan, USA",
-      description: "Lead enterprise-scale digital strategy and technology initiatives for Ford.com, managing global development teams and architecting next-generation solutions that enhance user experience and drive business growth.",
+      description: "Lead enterprise-scale digital strategy and technology initiatives for Ford.com, leveraging Adobe Experience Manager (AEM) and Edge Delivery Services to architect next-generation web experiences that drive global business growth.",
       achievements: [
-        "Spearhead cloud migration initiatives, improving system scalability by 40% and reliability by 30%",
-        "Optimize development workflows and implement best practices, reducing deployment time by 25%",
-        "Achieve 95% project success rate through strategic planning and cross-functional collaboration",
-        "Mentor team of 10+ engineers across multiple technology stacks and development practices"
+        "Architected and implemented Adobe Edge Delivery Services, significantly improving PageSpeed scores and user engagement metrics",
+        "Pioneered the integration of Model Context Protocol (MCP) and autonomous agents to automate complex engineering workflows",
+        "Lead the integration of Adobe GenStudio and Firefly into the content supply chain, reducing creative turnaround time",
+        "Spearhead cloud migration and AEM as a Cloud Service (AEMaaCS) initiatives, improving system scalability by 40%",
+        "Mentor team of 10+ engineers on modern front-end architectures and AI-driven development practices"
       ]
     },
     {
@@ -21,12 +22,13 @@ const Experience = () => {
       company: "V2Soft Inc (Technology Consulting Firm)",
       period: "May 2016 – May 2024",
       location: "Michigan, USA",
-      description: "Directed a team of 15 engineers to deliver scalable eCommerce platforms and enterprise solutions, generating $45M+ in annual revenue through strategic technology implementations and innovative development practices.",
+      description: "Directed a team of 15 engineers to deliver scalable Adobe Experience Cloud solutions and enterprise eCommerce platforms, generating $45M+ in annual revenue through strategic technology implementations.",
       achievements: [
-        "Achieved 98% on-time delivery and 700% YOY growth through strategic technology implementations",
-        "Developed comprehensive methodologies for enterprise-scale project delivery and team management",
-        "Maintained 90% team retention while consistently meeting utilization and margin targets",
-        "Managed P&L for high-revenue platforms while overseeing $20M+ in project budgets"
+        "Implemented Adobe Workfront across global teams to streamline project management and resource allocation",
+        "Developed and deployed custom AI agents to optimize P&L reporting and project metadata analysis",
+        "Successfully delivered 20+ enterprise scale AEM implementations with 98% on-time delivery across automotive and retail sectors",
+        "Drove 700% YOY growth in the digital services division through strategic Adobe and AI technology consulting",
+        "Managed P&L for high-revenue platforms while overseeing $20M+ in project budgets and Adobe licensing strategies"
       ]
     },
     {
