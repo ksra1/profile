@@ -8,12 +8,12 @@ const Experience = () => {
       company: "Ford Motor Company",
       period: "May 2024 – Present",
       location: "Michigan, USA",
-      description: "Lead enterprise-scale digital strategy and technology initiatives for Ford.com, leveraging Adobe Experience Manager (AEM) and Edge Delivery Services to architect next-generation web experiences that drive global business growth.",
+      description: "Lead enterprise-scale digital strategy and technology initiatives for Ford.com, leveraging Adobe Experience Manager (AEM) and AEM as a Cloud Service (AEMAACS) to architect next-generation web experiences that drive global business growth.",
       achievements: [
-        "Architected and implemented Adobe Edge Delivery Services, significantly improving PageSpeed scores and user engagement metrics",
+        "Spearhead migration to AEM as a Cloud Service (AEMAACS), improving system scalability by 40% and operational reliability",
+        "Lead the implementation of Adobe Analytics and Adobe Target to drive data-driven personalization and customer journey optimization",
         "Pioneered the integration of Model Context Protocol (MCP) and autonomous agents to automate complex engineering workflows",
-        "Lead the integration of Adobe GenStudio and Firefly into the content supply chain, reducing creative turnaround time",
-        "Spearhead cloud migration and AEM as a Cloud Service (AEMaaCS) initiatives, improving system scalability by 40%",
+        "Optimize global content delivery strategies using AEM, resulting in enhanced user engagement across Ford.com",
         "Mentor team of 10+ engineers on modern front-end architectures and AI-driven development practices"
       ]
     },
