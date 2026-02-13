@@ -31,10 +31,6 @@ const Hero = () => {
           
           <div className="flex flex-wrap justify-center items-center gap-6 mb-12 text-lg">
             <div className="flex items-center gap-2">
-              <Phone className="w-5 h-5 text-blue-400" />
-              <span>586-202-4673</span>
-            </div>
-            <div className="flex items-center gap-2">
               <Mail className="w-5 h-5 text-blue-400" />
               <span>sravan.kollapudi@gmail.com</span>
             </div>
@@ -57,15 +53,6 @@ const Hero = () => {
               className="border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white px-8 py-3 text-lg transition-all duration-300 hover:scale-105"
             >
               Get In Touch
-            </Button>
-            <Button 
-              variant="outline" 
-              asChild
-              className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-8 py-3 text-lg transition-all duration-300 hover:scale-105"
-            >
-              <a href="https://www.linkedin.com/in/skallapu" target="_blank" rel="noopener noreferrer">
-                LinkedIn Profile
-              </a>
             </Button>
           </div>
         </div>

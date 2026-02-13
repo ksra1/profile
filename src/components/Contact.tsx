@@ -6,22 +6,10 @@ import { Card, CardContent } from '@/components/ui/card';
 const Contact = () => {
   const contactInfo = [
     {
-      icon: <Phone className="w-6 h-6" />,
-      label: "Phone",
-      value: "586-202-4673",
-      href: "tel:+15862024673"
-    },
-    {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
       value: "sravan.kollapudi@gmail.com",
       href: "mailto:sravan.kollapudi@gmail.com"
-    },
-    {
-      icon: <Globe className="w-6 h-6" />,
-      label: "LinkedIn",
-      value: "linkedin.com/in/skallapu",
-      href: "https://www.linkedin.com/in/skallapu"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
@@ -43,7 +31,7 @@ const Contact = () => {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+          <div className="grid md:grid-cols-2 gap-6 mb-12">
             {contactInfo.map((contact, index) => (
               <Card key={index} className="bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-2">
                 <CardContent className="p-6 text-center">
@@ -85,20 +73,11 @@ const Contact = () => {
                     Send Email
                   </a>
                 </Button>
-                <Button 
-                  variant="outline" 
-                  asChild
-                  className="border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white px-8 py-3 text-lg transition-all duration-300 hover:scale-105"
-                >
-                  <a href="https://www.linkedin.com/in/skallapu" target="_blank" rel="noopener noreferrer">
-                    Connect on LinkedIn
-                  </a>
-                </Button>
               </div>
             </div>
 
             <div className="text-center text-blue-300">
-              <p>&copy; 2025 Sravan Kumar Kollapudi. All rights reserved.</p>
+              <p>&copy; 2026 Sravan Kumar Kollapudi. All rights reserved.</p>
             </div>
           </div>
         </div>
