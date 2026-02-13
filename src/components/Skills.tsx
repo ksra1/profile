@@ -10,10 +10,7 @@ const Skills = () => {
         "Model Context Protocol (MCP)",
         "Agentic Workflows & Multi-Agent Systems",
         "Large Language Models (LLMs)",
-        "Prompt Engineering",
-        "RAG (Retrieval-Augmented Generation)",
-        "LangChain & AutoGen",
-        "AI-Driven Automation"
+        "Prompt Engineering"
       ]
     },
     {
@@ -59,15 +56,15 @@ const Skills = () => {
     },
     {
       icon: <Cloud className="w-8 h-8" />,
-      title: "Cloud & Infrastructure",
+      title: "Cloud & Monitoring",
       skills: [
         "AWS, Azure, GCP",
         "Kubernetes & Docker",
         "DevOps (CI/CD, Terraform)",
-        "Jenkins & Git",
-        "Serverless Architecture",
-        "Microservices",
-        "Infrastructure as Code"
+        "Splunk & Dynatrace",
+        "New Relic & Grafana",
+        "Infrastructure as Code",
+        "Performance Tuning"
       ]
     },
     {
@@ -81,19 +78,6 @@ const Skills = () => {
         "Maven & Gradle",
         "JMeter & Selenium",
         "Postman & API Testing"
-      ]
-    },
-    {
-      icon: <Database className="w-8 h-8" />,
-      title: "Analytics & Monitoring",
-      skills: [
-        "Splunk",
-        "Dynatrace",
-        "New Relic",
-        "Grafana",
-        "Application Performance Monitoring",
-        "Log Analysis",
-        "Performance Tuning"
       ]
     }
   ];
