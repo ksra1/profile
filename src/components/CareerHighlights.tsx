@@ -1,68 +1,100 @@
 
-import { TrendingUp, Shield, Users, Award, Lightbulb, Globe, Bot } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { TrendingUp, Shield, Users, Lightbulb, Bot } from 'lucide-react';
+import { fadeUpContainer } from '@/lib/motion';
+import TiltCard from '@/components/motion/TiltCard';
+
+const smallHighlights = [
+  {
+    icon: <Users className="w-6 h-6" />,
+    title: "Team Building & People Leadership",
+    description: "Hiring, coaching, and performance management for engineering and architecture teams."
+  },
+  {
+    icon: <Shield className="w-6 h-6" />,
+    title: "AEM & Adobe Experience Cloud Depth",
+    description: "9+ full-cycle AEMaaCS projects across Target, Analytics, AJO, CJA, and AEP."
+  },
+  {
+    icon: <TrendingUp className="w-6 h-6" />,
+    title: "Vendor & Stakeholder Management",
+    description: "SLA/SLO ownership and incident response for Fortune 500 engagements."
+  },
+  {
+    icon: <Lightbulb className="w-6 h-6" />,
+    title: "Headless Commerce & Edge Strategy",
+    description: "AEM + Shopify + React/Next.js, extended into edge delivery with Akamai."
+  }
+];
+
+const credentials = [
+  "Adobe Certified AEM Developer",
+  "15+ Year AEM Consultant",
+  "Adobe Rockstar Finalist",
+  "9x Adobe Summit Attendee"
+];
 
 const CareerHighlights = () => {
-  const highlights = [
-    {
-      icon: <Users className="w-8 h-8" />,
-      title: "Team Building & People Leadership",
-      description: "Built and led engineering and architecture teams across agency and enterprise environments — owning hiring, coaching, and performance management — while staying accountable for end-to-end technical delivery."
-    },
-    {
-      icon: <Bot className="w-8 h-8" />,
-      title: "AI Agent Factories & Automation",
-      description: "Architected AI agent factories that turn Jira tickets into working frontend, backend, analytics, and test implementations, plus engines that generate AEM Content Fragment models, GraphQL endpoints, and Edge Delivery Services building blocks from source designs."
-    },
-    {
-      icon: <Shield className="w-8 h-8" />,
-      title: "AEM & Adobe Experience Cloud Depth",
-      description: "Hands-on architecture and delivery across AEM as a Cloud Service, Edge Delivery Services, and Adobe Experience Cloud (Target, Analytics, AJO, CJA, AEP) for Fortune 500 and global brands, including 9+ full-cycle AEMaaCS projects."
-    },
-    {
-      icon: <TrendingUp className="w-8 h-8" />,
-      title: "Vendor & Stakeholder Management",
-      description: "Trusted vendor and agency relationship manager with a strong record of SLA/SLO ownership and incident response, translating business goals into scalable technical solutions and driving up to 700% YoY eCommerce growth."
-    },
-    {
-      icon: <Lightbulb className="w-8 h-8" />,
-      title: "Headless Commerce & Edge Strategy",
-      description: "Directed headless commerce integrations connecting AEM with Shopify storefronts and React/Next.js front ends, extending most recently into edge delivery, caching, and security strategy with Akamai."
-    },
-    {
-      icon: <Award className="w-8 h-8" />,
-      title: "22+ Years, Recognized Expertise",
-      description: "Adobe Certified AEM Developer and 15+ year AEM consultant; Adobe Rockstar finalist and 9-time Adobe Summit attendee, with a track record spanning automotive, retail, education, and technology sectors."
-    }
-  ];
-
   return (
-    <section id="highlights" className="py-20 bg-white">
-      <div className="container mx-auto px-6">
+    <section id="highlights" className="relative py-20 bg-white overflow-hidden">
+      <div className="container mx-auto px-6 relative">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Leadership Highlights</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <h2 className="text-4xl font-bold text-slate-900 mb-4">Leadership Highlights</h2>
+          <p className="text-xl text-slate-600 max-w-3xl mx-auto">
             Key achievements demonstrating exceptional engineering leadership and strategic technology management
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {highlights.map((highlight, index) => (
-            <div 
-              key={index}
-              className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
-            >
-              <div className="text-blue-600 mb-4">
-                {highlight.icon}
+        <motion.div
+          variants={fadeUpContainer}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.3 }}
+          className="max-w-5xl mx-auto grid grid-cols-2 lg:grid-cols-4 gap-4"
+          style={{ perspective: 1200 }}
+        >
+          {/* Featured tile */}
+          <div className="col-span-2 row-span-2">
+            <TiltCard className="rounded-3xl bg-gradient-to-br from-slate-900 via-slate-800 to-zinc-900 text-white p-8 flex flex-col justify-between shadow-xl shadow-slate-900/20">
+              <div>
+                <Bot className="w-9 h-9 text-sky-400 mb-4" />
+                <h3 className="text-2xl font-bold mb-3">AI Agent Factories &amp; Automation</h3>
+                <p className="text-slate-300 leading-relaxed">
+                  Architected AI agent factories that turn Jira tickets into working frontend, backend, analytics,
+                  and test implementations — plus engines that generate AEM Content Fragment models, GraphQL
+                  endpoints, and Edge Delivery Services building blocks from source designs.
+                </p>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                {highlight.title}
-              </h3>
-              <p className="text-gray-700 leading-relaxed">
-                {highlight.description}
-              </p>
-            </div>
+            </TiltCard>
+          </div>
+
+          {smallHighlights.map((highlight, index) => (
+            <TiltCard
+              key={index}
+              className="rounded-3xl bg-white border border-slate-200 p-6 flex flex-col justify-center shadow-sm"
+            >
+              <div className="text-sky-600 mb-3">{highlight.icon}</div>
+              <h3 className="font-semibold text-slate-900 mb-1 leading-snug">{highlight.title}</h3>
+              <p className="text-sm text-slate-600 leading-snug">{highlight.description}</p>
+            </TiltCard>
           ))}
-        </div>
+
+          {/* Footer credentials strip */}
+          <TiltCard
+            tilt={4}
+            className="col-span-2 lg:col-span-4 rounded-3xl bg-slate-50 border border-slate-200 p-6 flex flex-wrap items-center justify-center gap-3"
+          >
+            <span className="text-sm font-semibold text-slate-900 mr-2">22+ Years, Recognized Expertise:</span>
+            {credentials.map((credential, index) => (
+              <span
+                key={index}
+                className="px-4 py-2 rounded-full border border-slate-200 bg-white text-sm font-medium text-slate-700 shadow-sm"
+              >
+                {credential}
+              </span>
+            ))}
+          </TiltCard>
+        </motion.div>
       </div>
     </section>
   );
