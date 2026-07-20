@@ -1,83 +1,111 @@
 
-import { Code, Users, Shield, Cloud, Database, Zap, Bot } from 'lucide-react';
+import { Code, Users, Shield, Cloud, Database, Zap, Bot, ShoppingCart, Briefcase } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
     {
-      icon: <Bot className="w-8 h-8" />,
-      title: "AI & Agentic Systems",
+      icon: <Database className="w-8 h-8" />,
+      title: "AEM & Headless CMS",
       skills: [
-        "Model Context Protocol (MCP)",
-        "Agentic Workflows & Multi-Agent Systems",
-        "Large Language Models (LLMs)",
-        "Prompt Engineering"
-      ]
-    },
-    {
-      icon: <Users className="w-8 h-8" />,
-      title: "Leadership & Management",
-      skills: [
-        "Program Management",
-        "Technical Pre-Sales",
-        "Account Strategy",
-        "Global Team Leadership",
-        "Client Relationship Management",
-        "Cross-Functional Collaboration",
-        "Agile Methodologies"
-      ]
-    },
-    {
-      icon: <Zap className="w-8 h-8" />,
-      title: "Akamai & Performance",
-      skills: [
-        "API Security (WAF, API Gateways)",
-        "Web Performance (DNS, HTTP/HTTPS)",
-        "SSL/TLS Configuration",
-        "CDN Optimization",
-        "RESTful APIs",
-        "GraphQL",
-        "API Management"
+        "Architecture & Component Development",
+        "Template Design & Workflows",
+        "Permissions & Publishing Models",
+        "AEM as a Cloud Service",
+        "Sites, Assets, Forms",
+        "Edge Delivery Services",
+        "AEM Headless / GraphQL"
       ]
     },
     {
       icon: <Shield className="w-8 h-8" />,
       title: "Adobe Experience Cloud",
       skills: [
-        "Adobe Experience Manager (AEM)",
-        "Edge Delivery Services",
-        "Adobe GenStudio & Firefly",
-        "Adobe Workfront",
-        "Adobe Experience Platform (AEP)",
+        "Adobe Target & Analytics",
         "Adobe Journey Optimizer (AJO)",
-        "Adobe Analytics & Target",
-        "Adobe Audience Manager",
-        "Adobe Marketo Engage"
+        "Customer Journey Analytics (CJA)",
+        "Adobe Experience Platform (AEP)",
+        "Launch / Tags",
+        "Adobe Campaign & Workfront"
       ]
     },
     {
-      icon: <Cloud className="w-8 h-8" />,
-      title: "Cloud & Monitoring",
+      icon: <Bot className="w-8 h-8" />,
+      title: "AI & Agentic Systems",
       skills: [
-        "AWS, Azure, GCP",
-        "Kubernetes & Docker",
-        "DevOps (CI/CD, Terraform)",
-        "Splunk & Dynatrace",
-        "New Relic & Grafana",
-        "Infrastructure as Code",
-        "Performance Tuning"
+        "LLM Agent Development & Orchestration",
+        "Ticket-to-Implementation Automation",
+        "AI-Driven Automated Testing",
+        "Retrieval-Augmented Generation (RAG)",
+        "Model Context Protocol (MCP)",
+        "AI-Driven Code & Content-Model Generation"
+      ]
+    },
+    {
+      icon: <ShoppingCart className="w-8 h-8" />,
+      title: "Headless Commerce Integration",
+      skills: [
+        "Shopify (Headless Commerce)",
+        "Content Modeling",
+        "Taxonomies & Segmentation",
+        "REST/GraphQL APIs",
+        "Webhooks"
       ]
     },
     {
       icon: <Code className="w-8 h-8" />,
-      title: "Technical Expertise",
+      title: "Web & Frontend Architecture",
       skills: [
-        "Java & Spring Boot",
-        "Python & JavaScript",
-        "Bash Scripting",
-        "Apache & Nginx",
-        "Maven & Gradle",
-        "JMeter & Selenium",
-        "Postman & API Testing"
+        "React/Next.js Integration",
+        "Micro-Frontends",
+        "RESTful/GraphQL APIs & Microservices",
+        "Core Web Vitals & Performance",
+        "Security Best Practices & SEO"
+      ]
+    },
+    {
+      icon: <Cloud className="w-8 h-8" />,
+      title: "Backend, DevOps & Cloud",
+      skills: [
+        "Java/J2EE, Spring Boot",
+        "Apache Sling, OSGi",
+        "CI/CD (Jenkins, Maven, Docker, Kubernetes)",
+        "AWS, Google Cloud",
+        "Observability & Monitoring"
+      ]
+    },
+    {
+      icon: <Zap className="w-8 h-8" />,
+      title: "Edge & Platform Reliability",
+      skills: [
+        "Akamai Edge Functions",
+        "Spin (WebAssembly)",
+        "CDN & Caching Strategy",
+        "Edge Security",
+        "SLO/SLA Ownership & Incident Response"
+      ]
+    },
+    {
+      icon: <Users className="w-8 h-8" />,
+      title: "People & Vendor Leadership",
+      skills: [
+        "Team Building & Hiring",
+        "Coaching & Performance Management",
+        "Vendor/Agency Management",
+        "Agile/Scrum",
+        "Discovery & Design Workshops",
+        "Stakeholder Communication"
+      ]
+    },
+    {
+      icon: <Briefcase className="w-8 h-8" />,
+      title: "Platform Strategy & MarTech",
+      skills: [
+        "Roadmap Ownership",
+        "Presale Scoping & Estimation",
+        "Technical Design",
+        "eCommerce Integrations",
+        "Content Supply Chain",
+        "Personalization"
       ]
     }
   ];

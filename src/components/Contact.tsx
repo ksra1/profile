@@ -1,5 +1,5 @@
 
-import { Mail, Phone, MapPin, Globe } from 'lucide-react';
+import { Mail, Phone, MapPin, LinkedinIcon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
@@ -10,6 +10,18 @@ const Contact = () => {
       label: "Email",
       value: "sravan.kollapudi@gmail.com",
       href: "mailto:sravan.kollapudi@gmail.com"
+    },
+    {
+      icon: <Phone className="w-6 h-6" />,
+      label: "Phone",
+      value: "586-202-4673",
+      href: "tel:+15862024673"
+    },
+    {
+      icon: <LinkedinIcon className="w-6 h-6" />,
+      label: "LinkedIn",
+      value: "linkedin.com/in/skk1",
+      href: "https://www.linkedin.com/in/skk1/"
     },
     {
       icon: <MapPin className="w-6 h-6" />,

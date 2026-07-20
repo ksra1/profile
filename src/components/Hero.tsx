@@ -22,17 +22,22 @@ const Hero = () => {
             Sravan Kumar Kollapudi
           </h1>
           <h2 className="text-2xl md:text-3xl font-light mb-8 text-blue-200">
-            Senior Engineering Manager & Technical Leader
+            Engineering Manager | AEM & Headless CMS | Adobe Experience Cloud | AI Agents & Automation
           </h2>
           <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">
-            20+ years leading global engineering teams and driving enterprise-scale digital transformation 
-            initiatives that deliver exceptional business value and measurable results.
+            22+ years building and leading engineering and architecture teams — hiring, coaching, and owning
+            delivery — while staying hands-on across AEM/CMS platforms, headless commerce, Adobe Experience Cloud,
+            and AI agent automation.
           </p>
-          
+
           <div className="flex flex-wrap justify-center items-center gap-6 mb-12 text-lg">
             <div className="flex items-center gap-2">
               <Mail className="w-5 h-5 text-blue-400" />
               <span>sravan.kollapudi@gmail.com</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Phone className="w-5 h-5 text-blue-400" />
+              <span>586-202-4673</span>
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="w-5 h-5 text-blue-400" />

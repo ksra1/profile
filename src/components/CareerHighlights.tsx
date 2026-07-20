@@ -4,34 +4,34 @@ import { TrendingUp, Shield, Users, Award, Lightbulb, Globe, Bot } from 'lucide-
 const CareerHighlights = () => {
   const highlights = [
     {
+      icon: <Users className="w-8 h-8" />,
+      title: "Team Building & People Leadership",
+      description: "Built and led engineering and architecture teams across agency and enterprise environments — owning hiring, coaching, and performance management — while staying accountable for end-to-end technical delivery."
+    },
+    {
       icon: <Bot className="w-8 h-8" />,
-      title: "Agentic AI & MCP Integration",
-      description: "Pioneered the use of Model Context Protocol (MCP) and multi-agent systems to automate enterprise workflows, significantly reducing manual overhead and enhancing decision-making capabilities through LLM-driven intelligence."
+      title: "AI Agent Factories & Automation",
+      description: "Architected AI agent factories that turn Jira tickets into working frontend, backend, analytics, and test implementations, plus engines that generate AEM Content Fragment models, GraphQL endpoints, and Edge Delivery Services building blocks from source designs."
     },
     {
       icon: <Shield className="w-8 h-8" />,
-      title: "Adobe Ecosystem Excellence",
-      description: "Spearheaded enterprise-wide adoption of Adobe Experience Manager (AEM), Edge Delivery Services, and GenStudio, revolutionizing content delivery and achieving 40% faster time-to-market for global digital campaigns."
-    },
-    {
-      icon: <Lightbulb className="w-8 h-8" />,
-      title: "GenAI Strategy & Implementation",
-      description: "Driving the strategic roadmap for Generative AI adoption across enterprise platforms, implementing RAG architectures and LLM-powered features that enhance customer experience and operational intelligence."
-    },
-    {
-      icon: <Users className="w-8 h-8" />,
-      title: "Global Team Leadership",
-      description: "Built and mentored global development teams of 15+ engineers across multiple time zones, fostering technical excellence and achieving 98% on-time project delivery while maintaining 90% team retention rates."
+      title: "AEM & Adobe Experience Cloud Depth",
+      description: "Hands-on architecture and delivery across AEM as a Cloud Service, Edge Delivery Services, and Adobe Experience Cloud (Target, Analytics, AJO, CJA, AEP) for Fortune 500 and global brands, including 9+ full-cycle AEMaaCS projects."
     },
     {
       icon: <TrendingUp className="w-8 h-8" />,
-      title: "Strategic P&L Management",
-      description: "Managed P&L for high-revenue eCommerce platforms, driving 700% YOY growth through strategic technology implementations while overseeing $20M+ in project budgets and achieving exceptional business outcomes."
+      title: "Vendor & Stakeholder Management",
+      description: "Trusted vendor and agency relationship manager with a strong record of SLA/SLO ownership and incident response, translating business goals into scalable technical solutions and driving up to 700% YoY eCommerce growth."
+    },
+    {
+      icon: <Lightbulb className="w-8 h-8" />,
+      title: "Headless Commerce & Edge Strategy",
+      description: "Directed headless commerce integrations connecting AEM with Shopify storefronts and React/Next.js front ends, extending most recently into edge delivery, caching, and security strategy with Akamai."
     },
     {
       icon: <Award className="w-8 h-8" />,
-      title: "High-Impact Project Delivery",
-      description: "Successfully delivered complex enterprise projects for major automotive and educational institutions, exceeding SLAs/SLOs and supporting significant traffic surges during critical business events without service disruption."
+      title: "22+ Years, Recognized Expertise",
+      description: "Adobe Certified AEM Developer and 15+ year AEM consultant; Adobe Rockstar finalist and 9-time Adobe Summit attendee, with a track record spanning automotive, retail, education, and technology sectors."
     }
   ];
 

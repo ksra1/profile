@@ -4,31 +4,57 @@ import { Calendar, MapPin, Users } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: "Engineering Manager / Principal Software Engineer",
-      company: "Ford Motor Company",
-      period: "May 2024 – Present",
+      title: "Sr. II Technology Manager, Edge Security & CMS Platforms",
+      company: "Akamai Technologies",
+      period: "May 2026 – Present",
       location: "Michigan, USA",
-      description: "Lead enterprise-scale digital strategy and technology initiatives for Ford.com, leveraging Adobe Experience Manager (AEM) and AEM as a Cloud Service (AEMAACS) to architect next-generation web experiences that drive global business growth.",
+      description: "Apply deep AEM/CMS and headless architecture expertise to edge security and content-delivery strategy for enterprise clients spanning food service, retail/commerce, transportation, and manufacturing.",
       achievements: [
-        "Spearhead migration to AEM as a Cloud Service (AEMAACS), improving system scalability by 40% and operational reliability",
-        "Lead the implementation of Adobe Analytics and Adobe Target to drive data-driven personalization and customer journey optimization",
-        "Pioneered the integration of Model Context Protocol (MCP) and autonomous agents to automate complex engineering workflows",
-        "Optimize global content delivery strategies using AEM, resulting in enhanced user engagement across Ford.com",
-        "Mentor team of 10+ engineers on modern front-end architectures and AI-driven development practices"
+        "Design and develop edge compute applications using Akamai Functions to accelerate content delivery, enforce security policies, and optimize performance for CMS- and commerce-driven digital experiences",
+        "Serve as the technical bridge between edge infrastructure and CMS/commerce platform teams, advising on caching strategy, API/webhook integrations, and reliability engineering (SLOs, monitoring, incident response)",
+        "Bring AEM and Adobe Experience Cloud domain expertise to edge engagements, helping enterprise clients harden and scale headless and hybrid content architectures against performance and security risk",
+        "Building an AI engine that automates content offloading to NetStorage by object type and duration, optimizing storage cost and cache efficiency for high-traffic edge-delivered properties"
       ]
     },
     {
-      title: "Senior Engineering Manager / Director of Engineering",
-      company: "V2Soft Inc (Technology Consulting Firm)",
+      title: "Group Director, CMS & Adobe Experience Cloud",
+      company: "DEPT Agency",
+      period: "Feb 2026 – May 2026",
+      location: "Michigan, USA",
+      description: "Owned headless CMS and Adobe Experience Cloud strategy (AEM, Edge Delivery Services, Workfront, AJO, CJA, Adobe Analytics) across a portfolio of enterprise client engagements.",
+      achievements: [
+        "Directed headless commerce integrations connecting AEM content architecture with Shopify storefronts, enabling rapid, multi-channel digital experience delivery for global clients including PwC, Oracle, and OpenAI",
+        "Led cross-functional teams and agency-client stakeholder relationships to deliver Adobe Experience Cloud programs spanning content architecture, personalization (Target, AJO), and analytics (CJA)",
+        "Established governance and best practices for headless CMS and commerce integrations across AEM and Shopify, accelerating platform delivery for enterprise marketing and commerce teams",
+        "Extended the Jira-driven AI agent factory across client engagements, built an AI engine that reads Figma files or existing sites to generate Adobe Edge Delivery Services building blocks, and built a RAG-based chat experience using vectorized site content"
+      ]
+    },
+    {
+      title: "Sr. Engineering Manager",
+      company: "Ford Motor Company",
+      period: "May 2024 – Feb 2026",
+      location: "Michigan, USA",
+      description: "Led technical design, work planning, and delivery for AEM as a Cloud Service implementation on global marketing platforms, integrating Sites, Assets, Forms, and Edge Delivery Services.",
+      achievements: [
+        "Achieved 40% scalability improvement and 95% on-time MVP delivery across AEM as a Cloud Service rollouts",
+        "Managed a team of engineers and architects, serving as subject matter expert owning the Adobe technology vertical and delivering solution design, platform selection, and thought leadership",
+        "Designed AEM solutions including component development, template design, workflows, and integrations with Adobe Target, AJO, and CJA, applying headless CMS principles for decoupled content delivery",
+        "Built and managed CI/CD pipelines with Docker, Kubernetes, and Jenkins, implementing performance monitoring and alerting for high availability and reliability",
+        "Mentored Solution Architects and technical leads, offering architectural tradeoffs to stakeholders and driving adoption of agile methodologies and continuous delivery",
+        "Built a factory of AI agents (via Model Context Protocol) that read Jira tickets and implement the frontend, backend, analytics-tracking, and test coverage each calls for, including AI-generated test cases, self-healing scripts, and visual regression checks"
+      ]
+    },
+    {
+      title: "Senior Engineering Manager / AEM Lead Consultant",
+      company: "V2Soft Inc",
       period: "May 2016 – May 2024",
       location: "Michigan, USA",
-      description: "Directed and mentored a global team of 30+ professionals to deliver scalable Adobe Experience Cloud solutions and enterprise eCommerce platforms, generating $45M+ in annual revenue.",
+      description: "Directed full-cycle AEM as a Cloud Service projects for Fortune 500 retail and automotive clients in an agency/client-service environment, leading presales scoping, technical design, estimation, and delivery.",
       achievements: [
-        "Implemented Adobe Workfront across global teams to streamline project management and resource allocation",
-        "Developed and deployed custom AI agents to optimize P&L reporting and project metadata analysis",
-        "Successfully delivered 20+ enterprise scale AEM implementations with 98% on-time delivery across automotive and retail sectors",
-        "Drove 700% YOY growth in the digital services division through strategic Adobe and AI technology consulting",
-        "Managed P&L for high-revenue platforms while overseeing $20M+ in project budgets and Adobe licensing strategies"
+        "Drove up to 700% YoY eCommerce growth through strategic technical delivery and presales leadership",
+        "Enforced architectural standards while providing expert guidance on AEM architecture, headless capabilities (Java, OSGi, REST/GraphQL), content migration, and DAM workflows across enterprise engagements",
+        "Developed CI/CD deployment pipelines and automation strategies using Kubernetes, Docker, Jenkins, and Maven, establishing performance monitoring, security, and alerting for reliable, compliant solutions",
+        "Mentored teams of Solution Architects, aligning technology solutions with evolving business needs and promoting agile, rapid-iteration delivery"
       ]
     },
     {
@@ -36,41 +62,39 @@ const Experience = () => {
       company: "American Public University System",
       period: "July 2013 – May 2016",
       location: "West Virginia, USA",
-      description: "Led and mentored a team of 20+ professionals to deliver innovative mobile and web applications, improving student enrollment by 15% through enhanced digital experiences and streamlined user interfaces.",
+      description: "Led AEM Sites and Forms architecture and integrations with Adobe Analytics for personalized content delivery to 100,000+ users, enhancing engagement by 15%.",
       achievements: [
-        "Implemented targeted communication systems for enhanced student engagement",
-        "Increased user adoption by 20% through personalized learning experiences and optimized workflows",
-        "Designed offline learning platform for students with limited connectivity, expanding educational reach",
-        "Established development standards and best practices that improved team efficiency by 35%"
+        "Conducted discovery and design workshops, led agile teams on user stories and change management",
+        "Architected DAM/content workflows with REST APIs for efficient publishing and compliance"
       ]
     },
     {
-      title: "Sr. Technical Consultant & Partner Consulting Lead",
+      title: "Senior Technical Consultant",
       company: "Heiler (acquired by Informatica)",
       period: "December 2012 – June 2013",
       location: "Michigan, USA",
-      description: "Delivered enterprise content management solutions and drove client digital transformation through strategic consulting and technical leadership expertise."
+      description: "Delivered Java/REST-based AEM consulting, leading stakeholder workshops for marketing transformation solutions."
     },
     {
       title: "Associate Director of Technology",
       company: "MRM Worldwide",
       period: "May 2010 – December 2012",
       location: "Michigan, USA",
-      description: "Led technology implementations for global marketing campaigns, delivering innovative digital solutions for enterprise clients across multiple industries and markets."
+      description: "Directed AEM Sites and Java-based projects for marketing clients, managing agile teams and integrations with Analytics/Target for personalized experiences."
     },
     {
       title: "Software Engineering Manager",
       company: "Analysts International Corporation",
       period: "Oct 2008 – Apr 2010",
       location: "Michigan, USA",
-      description: "Led technology teams and managed application sustainment projects."
+      description: "Managed Java/AEM sustainment projects, improving reliability by 20% and supporting marketing content operations with agile methodologies."
     },
     {
       title: "Systems Analyst",
-      company: "Tech Mahindra (formerly Satyam Computer Services Ltd) ",
+      company: "Tech Mahindra (formerly Satyam Computer Services Ltd)",
       period: "Jun 2004 – Sep 2008",
       location: "Michigan, USA",
-      description: "Implemented software management systems for portfolio management."
+      description: "Provided technical expertise for early AEM and Java implementations, aligning solutions with client marketing transformation goals."
     }
   ];
 

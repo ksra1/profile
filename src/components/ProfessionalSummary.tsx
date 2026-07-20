@@ -7,21 +7,26 @@ const ProfessionalSummary = () => {
           <h2 className="text-4xl font-bold text-gray-900 mb-8">Professional Summary</h2>
           <div className="bg-white rounded-lg shadow-lg p-8 md:p-12 transform hover:scale-105 transition-transform duration-300">
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              <strong className="text-blue-600">Strategic Engineering Leader</strong> with over 20 years of experience 
-              driving enterprise-scale digital transformation and managing global development teams. Expert in leading 
-              high-value technical initiatives, defining digital strategies, and delivering scalable solutions across 
-              the <strong className="text-blue-600">Adobe Experience Cloud ecosystem</strong> (AEM, Edge Delivery Services, GenStudio) 
-              and <strong className="text-blue-600">cutting-edge AI technologies</strong> (MCP, Agentic Workflows, and Generative AI).
+              <strong className="text-blue-600">Engineering leader</strong> with 22+ years spanning AEM/CMS platform
+              ownership, headless commerce integration, and Adobe Experience Cloud strategy across agency and
+              enterprise environments. Proven track record <strong className="text-blue-600">building and leading
+              engineering and architecture teams</strong> — hiring, coaching, and performance management — while
+              owning end-to-end content architecture, taxonomies, and segmentation for multi-brand, multi-region
+              personalization (Adobe Target, Analytics, AJO, CJA, AEP).
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Proven success in managing cross-functional teams of 15+ engineers, fostering executive client relationships, 
-              and achieving exceptional project delivery metrics. Track record of driving 700% YOY growth through strategic 
-              technology implementations while managing $20M+ project budgets and delivering measurable business impact.
+              Deep hands-on experience integrating AEM with headless commerce platforms including Shopify,
+              React/Next.js front ends, and GraphQL/REST APIs, extended most recently to edge delivery, caching, and
+              security (Akamai). Actively applies <strong className="text-blue-600">AI to boost engineering and
+              platform productivity</strong>: building AI agent factories that turn Jira tickets into working
+              frontend, backend, and analytics implementations, AI engines that generate AEM Content Fragment models,
+              GraphQL endpoints, and Edge Delivery Services building blocks from source designs, RAG-based chat and
+              search experiences, and MCP-based integrations connecting agents to AEM, Adobe, and Akamai systems.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Adept at aligning technical solutions with business objectives to maximize client value realization, 
-              combining deep technical expertise with strong leadership capabilities to deliver innovative digital 
-              experiences and optimize operational efficiency across global enterprises.
+              Skilled vendor and agency relationship manager with a strong record of SLA/SLO ownership, incident
+              response, and translating business goals into scalable technical solutions for Fortune 500 and global
+              brands.
             </p>
           </div>
         </div>
