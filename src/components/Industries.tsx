@@ -1,10 +1,11 @@
 
 import { motion } from 'framer-motion';
-import { Car, Cpu, ShoppingBag, Briefcase, Bot, Shield, GraduationCap } from 'lucide-react';
+import { Car, Factory, Cpu, ShoppingBag, Briefcase, Bot, Shield, GraduationCap } from 'lucide-react';
 import { fadeUpContainer, fadeUpItem } from '@/lib/motion';
 
 const industries = [
   { icon: <Car className="w-6 h-6" />, label: 'Automotive' },
+  { icon: <Factory className="w-6 h-6" />, label: 'Manufacturing' },
   { icon: <Cpu className="w-6 h-6" />, label: 'Technology' },
   { icon: <ShoppingBag className="w-6 h-6" />, label: 'Retail' },
   { icon: <Briefcase className="w-6 h-6" />, label: 'Consulting' },
