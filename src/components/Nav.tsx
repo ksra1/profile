@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
+import ScrollProgress from '@/components/motion/ScrollProgress';
 
 const sections = [
   { id: 'summary', label: 'Summary' },
@@ -54,17 +55,21 @@ const Nav = () => {
         scrolled ? 'bg-white/80 backdrop-blur-md border-b border-slate-200/70 shadow-sm' : 'bg-transparent'
       }`}
     >
+      <ScrollProgress />
       <nav className="container mx-auto px-6 h-16 flex items-center justify-between">
         <button
           onClick={() => {
             setMenuOpen(false);
             window.scrollTo({ top: 0, behavior: 'smooth' });
           }}
-          className={`font-bold tracking-tight transition-colors ${
-            scrolled ? 'text-slate-900' : 'text-white'
-          }`}
+          className="flex items-center gap-2.5 font-display font-bold tracking-tight group"
         >
-          SK<span className="text-sky-500">.</span>
+          <span className="w-9 h-9 rounded-xl bg-gradient-to-br from-slate-900 via-indigo-800 to-violet-600 text-white flex items-center justify-center text-sm shadow-md shadow-indigo-900/20 group-hover:scale-105 transition-transform">
+            SK
+          </span>
+          <span className={`hidden sm:inline transition-colors ${scrolled ? 'text-slate-900' : 'text-white'}`}>
+            Sravan Kollapudi
+          </span>
         </button>
 
         <div className="hidden md:flex items-center gap-1">
@@ -92,7 +97,7 @@ const Nav = () => {
 
         <button
           onClick={() => scrollToSection('contact')}
-          className="hidden md:inline-flex bg-sky-600 hover:bg-sky-500 text-white text-sm font-semibold px-5 py-2 rounded-full shadow-md shadow-sky-900/20 hover:shadow-lg hover:scale-105 transition-all duration-300"
+          className="hidden md:inline-flex bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white text-sm font-semibold px-5 py-2 rounded-full shadow-md shadow-indigo-900/20 hover:shadow-lg hover:scale-105 transition-all duration-300"
         >
           Get In Touch
         </button>

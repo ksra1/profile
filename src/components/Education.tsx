@@ -25,9 +25,12 @@ const education = [
 
 const Education = () => {
   return (
-    <section id="education" className="relative py-20 bg-slate-50 overflow-hidden">
+    <section id="education" className="relative py-24 bg-slate-50 overflow-hidden">
       <div className="container mx-auto px-6 relative">
         <div className="text-center mb-16">
+          <span className="inline-block text-xs font-semibold tracking-[0.2em] uppercase text-indigo-600 mb-3">
+            Foundation
+          </span>
           <h2 className="text-4xl font-bold text-slate-900 mb-4">Education</h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
             Academic foundation combining technical engineering expertise with strategic business management
@@ -44,14 +47,14 @@ const Education = () => {
         >
           <div className="grid md:grid-cols-2 gap-6 mb-6">
             {education.map((edu, index) => (
-              <TiltCard key={index} className="rounded-3xl bg-white border border-slate-200 shadow-sm p-6">
+              <TiltCard key={index} className="rounded-3xl bg-white border border-slate-200 shadow-sm p-6 hover:shadow-xl hover:shadow-indigo-900/10 hover:border-indigo-200 transition-shadow duration-300">
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-sky-600 rounded-full flex items-center justify-center text-white">
+                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-indigo-600 to-violet-600 rounded-2xl flex items-center justify-center text-white shadow-md shadow-indigo-900/20">
                     {edu.icon}
                   </div>
                   <div className="flex-grow">
                     <h3 className="text-xl font-bold text-slate-900 mb-2">{edu.degree}</h3>
-                    <p className="text-lg text-sky-600 font-semibold mb-2">{edu.field}</p>
+                    <p className="text-lg text-indigo-600 font-semibold mb-2">{edu.field}</p>
                     <p className="text-slate-700 font-medium mb-1">{edu.school}</p>
                     <p className="text-slate-600 mb-2">{edu.location}</p>
                     <p className="text-slate-500 text-sm">{edu.period}</p>
@@ -63,10 +66,10 @@ const Education = () => {
 
           <TiltCard
             tilt={4}
-            className="rounded-3xl bg-sky-600 text-white p-6 flex flex-col sm:flex-row items-center gap-3 text-center sm:text-left"
+            className="rounded-3xl bg-gradient-to-r from-indigo-600 to-violet-600 text-white p-6 flex flex-col sm:flex-row items-center gap-3 text-center sm:text-left shadow-xl shadow-indigo-900/20"
           >
             <span className="font-semibold whitespace-nowrap">Continuous Learning:</span>
-            <p className="text-sky-100 leading-snug">
+            <p className="text-indigo-100 leading-snug">
               Regular certification in Adobe Experience Cloud, Akamai technologies, cloud platforms, and executive
               leadership programs.
             </p>

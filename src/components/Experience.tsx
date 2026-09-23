@@ -96,9 +96,12 @@ const earlierCareer = [
 
 const Experience = () => {
   return (
-    <section id="experience" className="relative py-20 bg-white overflow-hidden">
+    <section id="experience" className="relative py-24 bg-slate-50 overflow-hidden">
       <div className="container mx-auto px-6 relative">
         <div className="text-center mb-16">
+          <span className="inline-block text-xs font-semibold tracking-[0.2em] uppercase text-indigo-600 mb-3">
+            Career
+          </span>
           <h2 className="text-4xl font-bold text-slate-900 mb-4">Professional Experience</h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
             A comprehensive journey through leadership roles in engineering management and technical innovation
@@ -116,17 +119,17 @@ const Experience = () => {
             <motion.div
               key={index}
               variants={fadeUpItem}
-              className="relative rounded-3xl bg-white border border-slate-200 shadow-sm hover:shadow-xl transition-shadow duration-300 p-6 md:p-8"
+              className="relative rounded-3xl bg-white border border-slate-200 shadow-sm hover:shadow-xl hover:shadow-indigo-900/10 hover:border-indigo-200 hover:-translate-y-0.5 transition-all duration-300 p-6 md:p-8"
             >
               {index === 0 && (
-                <span className="absolute -top-3 left-6 px-3 py-1 rounded-full bg-sky-600 text-white text-xs font-semibold shadow-md">
+                <span className="absolute -top-3 left-6 px-3 py-1 rounded-full bg-gradient-to-r from-indigo-600 to-violet-600 text-white text-xs font-semibold shadow-md shadow-indigo-900/30">
                   Current
                 </span>
               )}
               <div className="flex flex-wrap justify-between items-start gap-4 mb-4">
                 <div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-1">{exp.title}</h3>
-                  <h4 className="text-xl text-sky-600 font-semibold">{exp.company}</h4>
+                  <h4 className="text-xl text-indigo-600 font-semibold">{exp.company}</h4>
                 </div>
                 <div className="text-sm shrink-0">
                   <div className="flex items-center text-slate-600 mb-1 justify-end">
@@ -145,7 +148,7 @@ const Experience = () => {
               <ul className="space-y-2">
                 {exp.achievements.map((achievement, achIndex) => (
                   <li key={achIndex} className="flex items-start">
-                    <div className="w-1.5 h-1.5 bg-sky-600 rounded-full mt-2 mr-3 flex-shrink-0" />
+                    <div className="w-1.5 h-1.5 bg-indigo-600 rounded-full mt-2 mr-3 flex-shrink-0" />
                     <span className="text-slate-700 text-sm md:text-base">{achievement}</span>
                   </li>
                 ))}
@@ -175,7 +178,7 @@ const Experience = () => {
                       <div key={index} className={index !== 0 ? 'pt-5 border-t border-slate-100' : ''}>
                         <div className="flex flex-wrap justify-between items-baseline gap-x-3 gap-y-1 mb-1">
                           <h4 className="font-semibold text-slate-900">
-                            {exp.title} · <span className="text-sky-600">{exp.company}</span>
+                            {exp.title} · <span className="text-indigo-600">{exp.company}</span>
                           </h4>
                           <span className="text-sm text-slate-500 shrink-0">{exp.period}</span>
                         </div>

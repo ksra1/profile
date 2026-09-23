@@ -35,7 +35,7 @@ const skillCategories = [
   {
     icon: <Bot className="w-7 h-7" />,
     title: "AI & Agentic Systems",
-    tone: "dark",
+    tone: "accent",
     skills: [
       "LLM Agent Development & Orchestration",
       "Ticket-to-Implementation Automation",
@@ -103,15 +103,19 @@ const skillCategories = [
 ];
 
 const toneClasses: Record<string, string> = {
-  light: "bg-white border border-slate-200 shadow-sm",
-  dark: "bg-gradient-to-br from-slate-900 via-slate-800 to-zinc-900 text-white shadow-xl shadow-slate-900/20"
+  light: "bg-white border border-slate-200 shadow-sm hover:shadow-xl hover:shadow-indigo-900/10 hover:border-indigo-200",
+  dark: "bg-gradient-to-br from-slate-950 via-indigo-950 to-slate-900 text-white shadow-xl shadow-indigo-950/30",
+  accent: "bg-gradient-to-br from-indigo-600 via-violet-600 to-fuchsia-600 text-white shadow-xl shadow-indigo-900/30"
 };
 
 const Skills = () => {
   return (
-    <section id="skills" className="relative py-20 bg-slate-50 overflow-hidden">
+    <section id="skills" className="relative py-24 bg-white overflow-hidden">
       <div className="container mx-auto px-6 relative">
         <div className="text-center mb-16">
+          <span className="inline-block text-xs font-semibold tracking-[0.2em] uppercase text-indigo-600 mb-3">
+            Toolkit
+          </span>
           <h2 className="text-4xl font-bold text-slate-900 mb-4">Skills & Expertise</h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
             Comprehensive technical and leadership capabilities developed through two decades of enterprise experience
@@ -127,11 +131,17 @@ const Skills = () => {
           style={{ perspective: 1200 }}
         >
           {skillCategories.map((category, index) => {
-            const isDark = category.tone === 'dark';
+            const isLight = category.tone === 'light';
             return (
-              <TiltCard key={index} tilt={6} className={`rounded-3xl p-6 ${toneClasses[category.tone]}`}>
-                <div className={isDark ? 'text-sky-400 mb-4' : 'text-sky-600 mb-4'}>{category.icon}</div>
-                <h3 className={`text-xl font-semibold mb-4 ${isDark ? 'text-white' : 'text-slate-900'}`}>
+              <TiltCard key={index} tilt={6} className={`rounded-3xl p-6 transition-shadow duration-300 ${toneClasses[category.tone]}`}>
+                <div
+                  className={`w-12 h-12 rounded-2xl flex items-center justify-center mb-4 ${
+                    isLight ? 'bg-indigo-50 text-indigo-600' : 'bg-white/15 text-white'
+                  }`}
+                >
+                  {category.icon}
+                </div>
+                <h3 className={`text-xl font-semibold mb-4 ${isLight ? 'text-slate-900' : 'text-white'}`}>
                   {category.title}
                 </h3>
                 <div className="flex flex-wrap gap-2">
@@ -139,9 +149,9 @@ const Skills = () => {
                     <span
                       key={skillIndex}
                       className={
-                        isDark
-                          ? 'bg-white/10 border border-white/20 rounded-full px-3 py-1 text-sm text-white/90'
-                          : 'bg-slate-50 border border-slate-200 rounded-full px-3 py-1 text-sm text-slate-700'
+                        isLight
+                          ? 'bg-slate-50 border border-slate-200 rounded-full px-3 py-1 text-sm text-slate-700'
+                          : 'bg-white/10 border border-white/20 rounded-full px-3 py-1 text-sm text-white/90'
                       }
                     >
                       {skill}

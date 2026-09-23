@@ -4,6 +4,7 @@ import { Mail, Phone, MapPin, LinkedinIcon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { fadeUpContainer, fadeUpItem } from '@/lib/motion';
 import TiltCard from '@/components/motion/TiltCard';
+import Aurora from '@/components/motion/Aurora';
 
 const contactInfo = [
   {
@@ -34,9 +35,13 @@ const contactInfo = [
 
 const Contact = () => {
   return (
-    <section id="contact" className="relative py-20 bg-gradient-to-br from-slate-950 via-slate-900 to-zinc-900 text-white overflow-hidden">
+    <section id="contact" className="relative py-24 bg-slate-950 text-white overflow-hidden bg-grain">
+      <Aurora />
       <div className="container mx-auto px-6 relative">
         <div className="text-center mb-16">
+          <span className="inline-block text-xs font-semibold tracking-[0.2em] uppercase text-violet-300 mb-3">
+            Contact
+          </span>
           <h2 className="text-4xl font-bold mb-4">Let's Connect</h2>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
             Ready to discuss digital transformation strategies, Adobe Experience Cloud implementations,
@@ -56,16 +61,18 @@ const Contact = () => {
             {contactInfo.map((contact, index) => (
               <TiltCard
                 key={index}
-                className="rounded-3xl bg-white/10 backdrop-blur-sm border border-white/20 p-6 text-center"
+                className="rounded-3xl bg-white/5 backdrop-blur-sm border border-white/10 p-6 text-center hover:bg-white/10 hover:border-indigo-400/30 transition-colors duration-300"
               >
-                <div className="text-slate-300 mb-4 flex justify-center">{contact.icon}</div>
+                <div className="w-12 h-12 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-indigo-500/20 to-violet-500/20 border border-white/10 flex items-center justify-center text-violet-300">
+                  {contact.icon}
+                </div>
                 <h3 className="font-semibold text-white mb-2">{contact.label}</h3>
                 {contact.href !== "#" ? (
                   <a
                     href={contact.href}
                     target={contact.href.startsWith('http') ? '_blank' : '_self'}
                     rel={contact.href.startsWith('http') ? 'noopener noreferrer' : ''}
-                    className="text-sky-400 hover:text-sky-300 transition-colors duration-200 break-all"
+                    className="text-violet-400 hover:text-violet-300 transition-colors duration-200 break-all"
                   >
                     {contact.value}
                   </a>
@@ -83,17 +90,18 @@ const Contact = () => {
             viewport={{ once: true, amount: 0.3 }}
             className="text-center"
           >
-            <div className="bg-white/10 backdrop-blur-sm border border-white/10 rounded-3xl p-8 mb-8">
-              <h3 className="text-2xl font-bold mb-4">Professional Opportunities</h3>
-              <p className="text-lg text-slate-300 mb-6 leading-relaxed">
+            <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-8 mb-8 overflow-hidden">
+              <div className="absolute -top-24 right-0 w-64 h-64 bg-violet-600/20 rounded-full blur-3xl pointer-events-none" />
+              <h3 className="relative text-2xl font-bold mb-4">Professional Opportunities</h3>
+              <p className="relative text-lg text-slate-300 mb-6 leading-relaxed">
                 I'm always interested in discussing challenging leadership roles, consulting opportunities,
                 and innovative projects in digital transformation, Adobe Experience Cloud implementations,
                 and enterprise-scale technology solutions.
               </p>
-              <div className="flex flex-wrap justify-center gap-4">
+              <div className="relative flex flex-wrap justify-center gap-4">
                 <Button
                   asChild
-                  className="bg-sky-600 hover:bg-sky-500 text-white px-8 py-3 text-lg shadow-lg shadow-sky-900/30 transition-all duration-300 hover:scale-105"
+                  className="bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white px-8 py-3 text-lg shadow-lg shadow-indigo-900/40 transition-all duration-300 hover:scale-105"
                 >
                   <a href="mailto:sravan.kollapudi@gmail.com">Send Email</a>
                 </Button>
