@@ -4,6 +4,8 @@ import { ArrowDown, MapPin, Mail, Phone, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { fadeUpContainer, fadeUpItem } from '@/lib/motion';
 import Aurora from '@/components/motion/Aurora';
+import CursorGlow from '@/components/motion/CursorGlow';
+import Magnetic from '@/components/motion/Magnetic';
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -11,7 +13,8 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen bg-slate-950 text-white flex items-center justify-center relative overflow-hidden bg-grain">
+    <section className="relative overflow-hidden bg-grain">
+      <CursorGlow className="min-h-screen bg-slate-950 text-white flex items-center justify-center overflow-hidden">
       <Aurora />
 
       <div className="container mx-auto px-6 text-center relative z-10">
@@ -67,12 +70,14 @@ const Hero = () => {
           </motion.div>
 
           <motion.div variants={fadeUpItem} className="flex flex-wrap justify-center gap-4 mb-16">
-            <Button
-              onClick={() => scrollToSection('experience')}
-              className="relative bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white px-8 py-3 text-lg shadow-lg shadow-indigo-900/40 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-indigo-800/50"
-            >
-              View Experience
-            </Button>
+            <Magnetic>
+              <Button
+                onClick={() => scrollToSection('experience')}
+                className="relative bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white px-8 py-3 text-lg shadow-lg shadow-indigo-900/40 transition-all duration-300 hover:shadow-xl hover:shadow-indigo-800/50"
+              >
+                View Experience
+              </Button>
+            </Magnetic>
             <Button
               variant="outline"
               onClick={() => scrollToSection('contact')}
@@ -94,6 +99,7 @@ const Hero = () => {
           <ArrowDown className="w-8 h-8" />
         </motion.button>
       </div>
+      </CursorGlow>
     </section>
   );
 };

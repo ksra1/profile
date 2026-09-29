@@ -47,7 +47,7 @@ const Education = () => {
         >
           <div className="grid md:grid-cols-2 gap-6 mb-6">
             {education.map((edu, index) => (
-              <TiltCard key={index} className="rounded-3xl bg-white border border-slate-200 shadow-sm p-6 hover:shadow-xl hover:shadow-indigo-900/10 hover:border-indigo-200 transition-shadow duration-300">
+              <TiltCard key={index} glowColor="rgba(79,70,229,0.10)" className="rounded-3xl bg-white border border-slate-200 shadow-sm p-6 hover:shadow-xl hover:shadow-indigo-900/10 hover:border-indigo-200 transition-shadow duration-300">
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-indigo-600 to-violet-600 rounded-2xl flex items-center justify-center text-white shadow-md shadow-indigo-900/20">
                     {edu.icon}

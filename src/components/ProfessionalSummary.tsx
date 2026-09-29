@@ -48,7 +48,7 @@ const ProfessionalSummary = () => {
             </div>
 
             {/* Years */}
-            <TiltCard className="rounded-3xl bg-white border border-slate-200 p-6 flex flex-col justify-center shadow-sm hover:shadow-xl hover:shadow-indigo-900/10 hover:border-indigo-200 transition-shadow duration-300">
+            <TiltCard glowColor="rgba(79,70,229,0.10)" className="rounded-3xl bg-white border border-slate-200 p-6 flex flex-col justify-center shadow-sm hover:shadow-xl hover:shadow-indigo-900/10 hover:border-indigo-200 transition-shadow duration-300">
               <div className="text-4xl font-extrabold font-display text-slate-900">22+</div>
               <div className="text-sm text-slate-500 mt-1">Years in AEM &amp; Digital Leadership</div>
             </TiltCard>
@@ -60,13 +60,13 @@ const ProfessionalSummary = () => {
             </TiltCard>
 
             {/* Projects */}
-            <TiltCard className="rounded-3xl bg-white border border-slate-200 p-6 flex flex-col justify-center shadow-sm hover:shadow-xl hover:shadow-indigo-900/10 hover:border-indigo-200 transition-shadow duration-300">
+            <TiltCard glowColor="rgba(79,70,229,0.10)" className="rounded-3xl bg-white border border-slate-200 p-6 flex flex-col justify-center shadow-sm hover:shadow-xl hover:shadow-indigo-900/10 hover:border-indigo-200 transition-shadow duration-300">
               <div className="text-4xl font-extrabold font-display text-slate-900">9+</div>
               <div className="text-sm text-slate-500 mt-1">Full-Cycle AEMaaCS Projects</div>
             </TiltCard>
 
             {/* AI-first delivery */}
-            <TiltCard className="rounded-3xl bg-slate-50 border border-slate-200 p-6 flex flex-col justify-center shadow-sm hover:shadow-xl hover:shadow-indigo-900/10 hover:border-indigo-200 transition-shadow duration-300">
+            <TiltCard glowColor="rgba(79,70,229,0.10)" className="rounded-3xl bg-slate-50 border border-slate-200 p-6 flex flex-col justify-center shadow-sm hover:shadow-xl hover:shadow-indigo-900/10 hover:border-indigo-200 transition-shadow duration-300">
               <Bot className="w-7 h-7 text-indigo-600 mb-2" />
               <div className="font-semibold text-slate-900 leading-snug">AI-First Delivery</div>
               <div className="text-sm text-slate-600 mt-1">Agents from Jira ticket to shipped code</div>

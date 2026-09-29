@@ -5,6 +5,8 @@ import { Button } from '@/components/ui/button';
 import { fadeUpContainer, fadeUpItem } from '@/lib/motion';
 import TiltCard from '@/components/motion/TiltCard';
 import Aurora from '@/components/motion/Aurora';
+import CursorGlow from '@/components/motion/CursorGlow';
+import Magnetic from '@/components/motion/Magnetic';
 
 const contactInfo = [
   {
@@ -35,7 +37,8 @@ const contactInfo = [
 
 const Contact = () => {
   return (
-    <section id="contact" className="relative py-24 bg-slate-950 text-white overflow-hidden bg-grain">
+    <section id="contact" className="relative overflow-hidden bg-grain">
+      <CursorGlow className="py-24 bg-slate-950 text-white overflow-hidden">
       <Aurora />
       <div className="container mx-auto px-6 relative">
         <div className="text-center mb-16">
@@ -99,12 +102,14 @@ const Contact = () => {
                 and enterprise-scale technology solutions.
               </p>
               <div className="relative flex flex-wrap justify-center gap-4">
-                <Button
-                  asChild
-                  className="bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white px-8 py-3 text-lg shadow-lg shadow-indigo-900/40 transition-all duration-300 hover:scale-105"
-                >
-                  <a href="mailto:sravan.kollapudi@gmail.com">Send Email</a>
-                </Button>
+                <Magnetic>
+                  <Button
+                    asChild
+                    className="bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white px-8 py-3 text-lg shadow-lg shadow-indigo-900/40 transition-all duration-300"
+                  >
+                    <a href="mailto:sravan.kollapudi@gmail.com">Send Email</a>
+                  </Button>
+                </Magnetic>
               </div>
             </div>
 
@@ -114,6 +119,7 @@ const Contact = () => {
           </motion.div>
         </div>
       </div>
+      </CursorGlow>
     </section>
   );
 };

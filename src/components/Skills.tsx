@@ -133,7 +133,12 @@ const Skills = () => {
           {skillCategories.map((category, index) => {
             const isLight = category.tone === 'light';
             return (
-              <TiltCard key={index} tilt={6} className={`rounded-3xl p-6 transition-shadow duration-300 ${toneClasses[category.tone]}`}>
+              <TiltCard
+                key={index}
+                tilt={6}
+                glowColor={isLight ? 'rgba(79,70,229,0.10)' : 'rgba(255,255,255,0.14)'}
+                className={`rounded-3xl p-6 transition-shadow duration-300 ${toneClasses[category.tone]}`}
+              >
                 <div
                   className={`w-12 h-12 rounded-2xl flex items-center justify-center mb-4 ${
                     isLight ? 'bg-indigo-50 text-indigo-600' : 'bg-white/15 text-white'

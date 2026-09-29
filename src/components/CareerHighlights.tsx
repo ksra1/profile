@@ -78,6 +78,7 @@ const CareerHighlights = () => {
           {smallHighlights.map((highlight, index) => (
             <TiltCard
               key={index}
+              glowColor="rgba(79,70,229,0.10)"
               className="rounded-3xl bg-white border border-slate-200 p-6 flex flex-col justify-center shadow-sm hover:shadow-xl hover:shadow-indigo-900/10 hover:border-indigo-200 transition-shadow duration-300"
             >
               <div className="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center mb-3">
