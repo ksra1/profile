@@ -68,7 +68,7 @@ const CareerHighlights = () => {
                 <h3 className="text-2xl font-bold mb-3">AI Agent Factories &amp; Automation</h3>
                 <p className="text-slate-300 leading-relaxed">
                   Architected AI agent factories that turn Jira tickets into working frontend, backend, analytics,
-                  and test implementations — plus engines that generate AEM Content Fragment models, GraphQL
+                  and test implementations, plus engines that generate AEM Content Fragment models, GraphQL
                   endpoints, and Edge Delivery Services building blocks from source designs.
                 </p>
               </div>

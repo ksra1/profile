@@ -45,8 +45,8 @@ const Hero = () => {
             variants={fadeUpItem}
             className="text-lg md:text-xl text-slate-400 mb-10 max-w-3xl mx-auto leading-relaxed"
           >
-            22+ years building and leading engineering and architecture teams — hiring, coaching, and owning
-            delivery — while staying hands-on across AEM/CMS platforms, headless commerce, Adobe Experience Cloud,
+            22+ years building and leading engineering and architecture teams: hiring, coaching, and owning
+            delivery, while staying hands-on across AEM/CMS platforms, headless commerce, Adobe Experience Cloud,
             and AI agent automation.
           </motion.p>
 

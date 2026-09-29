@@ -24,7 +24,7 @@ const Industries = () => {
           </span>
           <h2 className="text-4xl font-bold text-slate-900 mb-4">Industries</h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Enterprise engagements spanning automotive, retail, technology, insurance, and higher education —
+            Enterprise engagements spanning automotive, retail, technology, insurance, and higher education,
             delivering for Fortune 500 brands and global consultancies.
           </p>
         </div>
