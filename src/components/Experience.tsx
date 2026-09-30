@@ -10,7 +10,7 @@ const featuredExperiences = [
     company: "Akamai Technologies",
     period: "May 2026 – Present",
     location: "Michigan, USA",
-    description: "Lead edge security and content-delivery strategy for enterprise clients spanning food service, retail/commerce, transportation, and manufacturing, applying deep platform and headless architecture expertise, including AEM and Adobe Experience Cloud.",
+    description: "Lead edge security and content-delivery strategy for enterprise clients spanning food service, retail/commerce, transportation, and manufacturing.",
     achievements: [
       "Design and develop edge compute applications using Akamai Functions to accelerate content delivery, enforce security policies, and optimize performance for CMS- and commerce-driven digital experiences",
       "Serve as the technical bridge between edge infrastructure and CMS/commerce platform teams, advising on caching strategy, API/webhook integrations, and reliability engineering (SLOs, monitoring, incident response)",
@@ -23,12 +23,12 @@ const featuredExperiences = [
     company: "DEPT Agency",
     period: "Feb 2026 – May 2026",
     location: "Michigan, USA",
-    description: "Owned platform and digital-experience strategy across a portfolio of enterprise client engagements, spanning headless CMS and Adobe Experience Cloud (AEM, Edge Delivery Services, Workfront, AJO, CJA, Adobe Analytics).",
+    description: "Owned CMS and digital experience platform strategy across enterprise client engagements including PwC, Oracle, and OpenAI, directing headless commerce integrations and cross-functional delivery teams.",
     achievements: [
-      "Directed headless commerce delivery for global clients including PwC, Oracle, and OpenAI, connecting AEM content architecture with Shopify storefronts for rapid, multi-channel digital experiences",
-      "Led cross-functional teams and agency-client stakeholder relationships to deliver Adobe Experience Cloud programs spanning content architecture, personalization (Target, AJO), and analytics (CJA)",
-      "Established governance and best practices for headless CMS and commerce integrations across AEM and Shopify, accelerating platform delivery for enterprise marketing and commerce teams",
-      "Extended the Jira-driven AI agent factory across client engagements, built an AI engine that reads Figma files or existing sites to generate Adobe Edge Delivery Services building blocks, and built a RAG-based chat experience using vectorized site content"
+      "Led cross-functional teams and agency-client stakeholder relationships across a portfolio of enterprise engagements, spanning content architecture, personalization, and analytics",
+      "Directed headless commerce integrations connecting AEM content architecture with Shopify storefronts for rapid, multi-channel delivery",
+      "Established governance and best practices for headless CMS and commerce integrations, accelerating delivery for enterprise marketing and commerce teams",
+      "Extended the Jira-driven AI agent factory across client engagements, built an AI engine that reads Figma files or existing sites to generate Edge Delivery Services building blocks, and built a RAG-based chat experience using vectorized site content"
     ]
   },
   {
@@ -36,11 +36,10 @@ const featuredExperiences = [
     company: "Ford Motor Company",
     period: "May 2024 – Feb 2026",
     location: "Michigan, USA",
-    description: "Led engineering for global marketing platforms, driving technical design, work planning, and delivery for an AEM as a Cloud Service implementation across Sites, Assets, Forms, and Edge Delivery Services.",
+    description: "Led engineering for global marketing platforms, owning technical design, delivery planning, and execution: 40% scalability improvement, 95% on-time MVP delivery. Platform: AEM as a Cloud Service.",
     achievements: [
-      "Achieved 40% scalability improvement and 95% on-time MVP delivery across AEM as a Cloud Service rollouts",
-      "Managed a team of engineers and architects, delivering solution design, platform selection, and thought leadership, serving as subject matter expert for the Adobe technology vertical",
-      "Designed headless CMS solutions, including component development, template design, and workflows, with AEM as the platform and integrations across Adobe Target, AJO, and CJA for decoupled content delivery",
+      "Managed a team of engineers and architects as the team's go-to subject matter expert, delivering solution design, platform selection, and thought leadership",
+      "Designed headless CMS solutions, including component development, template design, and workflows, for decoupled content delivery across marketing platforms",
       "Built and managed CI/CD pipelines with Docker, Kubernetes, and Jenkins, implementing performance monitoring and alerting for high availability and reliability",
       "Mentored Solution Architects and technical leads, offering architectural tradeoffs to stakeholders and driving adoption of agile methodologies and continuous delivery",
       "Built a factory of AI agents (via Model Context Protocol) that read Jira tickets and implement the frontend, backend, analytics-tracking, and test coverage each calls for, including AI-generated test cases, self-healing scripts, and visual regression checks"
@@ -51,10 +50,10 @@ const featuredExperiences = [
     company: "V2Soft Inc",
     period: "May 2016 – May 2024",
     location: "Michigan, USA",
-    description: "Directed engineering delivery for Fortune 500 retail and automotive clients in an agency/client-service environment, leading presales scoping, technical design, estimation, and delivery for full-cycle AEM as a Cloud Service projects.",
+    description: "Directed full-cycle cloud platform programs for Fortune 500 retail and automotive clients in an agency/client-service environment, leading presales scoping, technical design, estimation, and delivery. Primary platform: AEM as a Cloud Service.",
     achievements: [
       "Drove up to 700% YoY eCommerce growth through strategic technical delivery and presales leadership",
-      "Enforced architectural standards while providing expert guidance on AEM architecture, headless capabilities (Java, OSGi, REST/GraphQL), content migration, and DAM workflows across enterprise engagements",
+      "Enforced architectural standards while providing expert guidance on headless capabilities (Java, OSGi, REST/GraphQL), content migration, and DAM workflows across enterprise engagements",
       "Developed CI/CD deployment pipelines and automation strategies using Kubernetes, Docker, Jenkins, and Maven, establishing performance monitoring, security, and alerting for reliable, compliant solutions",
       "Mentored teams of Solution Architects, aligning technology solutions with evolving business needs and promoting agile, rapid-iteration delivery"
     ]
@@ -66,31 +65,31 @@ const earlierCareer = [
     title: "Web & Mobile App Development Lead",
     company: "American Public University System",
     period: "July 2013 – May 2016",
-    description: "Led AEM Sites and Forms architecture and integrations with Adobe Analytics for personalized content delivery to 100,000+ users, enhancing engagement by 15%."
+    description: "Led architecture and delivery for personalized content reaching 100,000+ users, improving engagement by 15%. Platform: AEM (Sites, Forms)."
   },
   {
     title: "Senior Technical Consultant",
     company: "Heiler (acquired by Informatica)",
     period: "December 2012 – June 2013",
-    description: "Delivered Java/REST-based AEM consulting, leading stakeholder workshops for marketing transformation solutions."
+    description: "Led stakeholder workshops and technical consulting for marketing transformation programs. Platform: AEM (Java/REST)."
   },
   {
     title: "Associate Director of Technology",
     company: "MRM Worldwide",
     period: "May 2010 – December 2012",
-    description: "Directed AEM Sites and Java-based projects for marketing clients, managing agile teams and integrations with Analytics/Target for personalized experiences."
+    description: "Directed engineering delivery and agile teams for marketing clients, building personalized digital experiences. Platform: AEM Sites (Java)."
   },
   {
     title: "Software Engineering Manager",
     company: "Analysts International Corporation",
     period: "Oct 2008 – Apr 2010",
-    description: "Managed Java/AEM sustainment projects, improving reliability by 20% and supporting marketing content operations with agile methodologies."
+    description: "Managed sustainment engineering for marketing content operations, improving reliability by 20% using agile methodologies. Platform: AEM (Java)."
   },
   {
     title: "Systems Analyst",
     company: "Tech Mahindra (formerly Satyam Computer Services Ltd)",
     period: "Jun 2004 – Sep 2008",
-    description: "Provided technical expertise for early AEM and Java implementations, aligning solutions with client marketing transformation goals."
+    description: "Provided technical leadership aligning early platform implementations with client marketing transformation goals. Platform: AEM (Java)."
   }
 ];
 
