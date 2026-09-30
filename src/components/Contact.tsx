@@ -47,7 +47,7 @@ const Contact = () => {
           </span>
           <h2 className="text-4xl font-bold mb-4">Let's Connect</h2>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-            Ready to discuss digital transformation strategies, Adobe Experience Cloud implementations,
+            Ready to discuss platform engineering, AI automation, and digital experience strategy,
             or leadership opportunities? I'd love to hear from you.
           </p>
         </div>
@@ -98,8 +98,8 @@ const Contact = () => {
               <h3 className="relative text-2xl font-bold mb-4">Professional Opportunities</h3>
               <p className="relative text-lg text-slate-300 mb-6 leading-relaxed">
                 I'm always interested in discussing challenging leadership roles, consulting opportunities,
-                and innovative projects in digital transformation, Adobe Experience Cloud implementations,
-                and enterprise-scale technology solutions.
+                and innovative projects spanning platform engineering, AI automation, and digital experience
+                at enterprise scale.
               </p>
               <div className="relative flex flex-wrap justify-center gap-4">
                 <Magnetic>

@@ -6,8 +6,39 @@ import TiltCard from '@/components/motion/TiltCard';
 
 const skillCategories = [
   {
+    icon: <Bot className="w-7 h-7" />,
+    title: "AI & Agentic Systems",
+    tone: "accent",
+    skills: [
+      "LLM Agent Development & Orchestration",
+      "Ticket-to-Implementation Automation",
+      "AI-Driven Automated Testing",
+      "Retrieval-Augmented Generation (RAG)",
+      "Model Context Protocol (MCP)",
+      "AI-Driven Code & Content-Model Generation"
+    ]
+  },
+  {
+    icon: <Zap className="w-7 h-7" />,
+    title: "Edge & Platform Reliability",
+    tone: "light",
+    skills: ["Akamai Edge Functions", "Spin (WebAssembly)", "CDN & Caching Strategy", "Edge Security", "SLO/SLA Ownership & Incident Response"]
+  },
+  {
+    icon: <Cloud className="w-7 h-7" />,
+    title: "Backend, DevOps & Cloud",
+    tone: "light",
+    skills: [
+      "Java/J2EE, Spring Boot",
+      "Apache Sling, OSGi",
+      "CI/CD (Jenkins, Maven, Docker, Kubernetes)",
+      "AWS, Google Cloud",
+      "Observability & Monitoring"
+    ]
+  },
+  {
     icon: <Database className="w-7 h-7" />,
-    title: "AEM & Headless CMS",
+    title: "CMS & Digital Experience (AEM)",
     tone: "light",
     skills: [
       "Architecture & Component Development",
@@ -33,19 +64,6 @@ const skillCategories = [
     ]
   },
   {
-    icon: <Bot className="w-7 h-7" />,
-    title: "AI & Agentic Systems",
-    tone: "accent",
-    skills: [
-      "LLM Agent Development & Orchestration",
-      "Ticket-to-Implementation Automation",
-      "AI-Driven Automated Testing",
-      "Retrieval-Augmented Generation (RAG)",
-      "Model Context Protocol (MCP)",
-      "AI-Driven Code & Content-Model Generation"
-    ]
-  },
-  {
     icon: <ShoppingCart className="w-7 h-7" />,
     title: "Headless Commerce Integration",
     tone: "light",
@@ -62,24 +80,6 @@ const skillCategories = [
       "Core Web Vitals & Performance",
       "Security Best Practices & SEO"
     ]
-  },
-  {
-    icon: <Cloud className="w-7 h-7" />,
-    title: "Backend, DevOps & Cloud",
-    tone: "light",
-    skills: [
-      "Java/J2EE, Spring Boot",
-      "Apache Sling, OSGi",
-      "CI/CD (Jenkins, Maven, Docker, Kubernetes)",
-      "AWS, Google Cloud",
-      "Observability & Monitoring"
-    ]
-  },
-  {
-    icon: <Zap className="w-7 h-7" />,
-    title: "Edge & Platform Reliability",
-    tone: "light",
-    skills: ["Akamai Edge Functions", "Spin (WebAssembly)", "CDN & Caching Strategy", "Edge Security", "SLO/SLA Ownership & Incident Response"]
   },
   {
     icon: <Users className="w-7 h-7" />,

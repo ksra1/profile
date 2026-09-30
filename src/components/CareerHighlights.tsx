@@ -12,8 +12,8 @@ const smallHighlights = [
   },
   {
     icon: <Shield className="w-6 h-6" />,
-    title: "AEM & Adobe Experience Cloud Depth",
-    description: "9+ full-cycle AEMaaCS projects across Target, Analytics, AJO, CJA, and AEP."
+    title: "Digital Experience at Scale",
+    description: "9+ full-cycle platform projects across AEM, Target, Analytics, AJO, and CJA."
   },
   {
     icon: <TrendingUp className="w-6 h-6" />,

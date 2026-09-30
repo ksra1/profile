@@ -1,6 +1,6 @@
 
 import { motion } from 'framer-motion';
-import { ArrowDown, MapPin, Mail, Phone, Sparkles } from 'lucide-react';
+import { ArrowDown, MapPin, Mail, Phone, Sparkles, Github, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { fadeUpContainer, fadeUpItem } from '@/lib/motion';
 import Aurora from '@/components/motion/Aurora';
@@ -39,9 +39,9 @@ const Hero = () => {
           </motion.h1>
 
           <motion.h2 variants={fadeUpItem} className="text-xl md:text-2xl font-light mb-8 text-slate-300">
-            Engineering Manager <span className="text-slate-600 mx-1">·</span> AEM &amp; Headless CMS
-            <span className="text-slate-600 mx-1">·</span> Adobe Experience Cloud
+            Engineering Leader <span className="text-slate-600 mx-1">·</span> Platform &amp; Edge Delivery
             <span className="text-slate-600 mx-1">·</span> AI Agents &amp; Automation
+            <span className="text-slate-600 mx-1">·</span> Digital Experience
           </motion.h2>
 
           <motion.p
@@ -49,24 +49,38 @@ const Hero = () => {
             className="text-lg md:text-xl text-slate-400 mb-10 max-w-3xl mx-auto leading-relaxed"
           >
             22+ years building and leading engineering and architecture teams: hiring, coaching, and owning
-            delivery, while staying hands-on across AEM/CMS platforms, headless commerce, Adobe Experience Cloud,
-            and AI agent automation.
+            delivery, while staying hands-on across platform engineering, edge delivery, AI agent automation,
+            and digital experience platforms like AEM and Adobe Experience Cloud.
           </motion.p>
 
           <motion.div variants={fadeUpItem} className="flex flex-wrap justify-center items-center gap-3 mb-12">
             {[
-              { icon: Mail, label: 'sravan.kollapudi@gmail.com' },
-              { icon: Phone, label: '586-202-4673' },
-              { icon: MapPin, label: 'Michigan, USA' }
-            ].map(({ icon: Icon, label }) => (
-              <div
-                key={label}
-                className="flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm text-sm text-slate-200"
-              >
-                <Icon className="w-4 h-4 text-violet-300" />
-                <span>{label}</span>
-              </div>
-            ))}
+              { icon: Mail, label: 'sravan.kollapudi@gmail.com', href: 'mailto:sravan.kollapudi@gmail.com' },
+              { icon: Phone, label: '586-202-4673', href: 'tel:+15862024673' },
+              { icon: MapPin, label: 'Michigan, USA' },
+              { icon: Github, label: 'GitHub', href: 'https://github.com/ksra1' },
+              { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/skk1/' }
+            ].map(({ icon: Icon, label, href }) => {
+              const chipClass =
+                'flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm text-sm text-slate-200 transition-colors duration-200';
+              return href ? (
+                <a
+                  key={label}
+                  href={href}
+                  target={href.startsWith('http') ? '_blank' : undefined}
+                  rel={href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                  className={`${chipClass} hover:bg-white/10 hover:border-indigo-400/30`}
+                >
+                  <Icon className="w-4 h-4 text-violet-300" />
+                  <span>{label}</span>
+                </a>
+              ) : (
+                <div key={label} className={chipClass}>
+                  <Icon className="w-4 h-4 text-violet-300" />
+                  <span>{label}</span>
+                </div>
+              );
+            })}
           </motion.div>
 
           <motion.div variants={fadeUpItem} className="flex flex-wrap justify-center gap-4 mb-16">

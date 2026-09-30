@@ -6,6 +6,9 @@ import CareerHighlights from '@/components/CareerHighlights';
 import Industries from '@/components/Industries';
 import Experience from '@/components/Experience';
 import Skills from '@/components/Skills';
+import Leadership from '@/components/Leadership';
+import Testimonials from '@/components/Testimonials';
+import Work from '@/components/Work';
 import Education from '@/components/Education';
 import Contact from '@/components/Contact';
 
@@ -19,6 +22,9 @@ const Index = () => {
       <Industries />
       <Experience />
       <Skills />
+      <Leadership />
+      <Testimonials />
+      <Work />
       <Education />
       <Contact />
     </div>

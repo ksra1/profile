@@ -6,15 +6,15 @@ import { fadeUpContainer, fadeUpItem } from '@/lib/motion';
 
 const featuredExperiences = [
   {
-    title: "Sr. II Technology Manager, Edge Security & CMS Platforms",
+    title: "Sr.II Technical Manager, Edge Security & CMS Platforms",
     company: "Akamai Technologies",
     period: "May 2026 – Present",
     location: "Michigan, USA",
-    description: "Apply deep AEM/CMS and headless architecture expertise to edge security and content-delivery strategy for enterprise clients spanning food service, retail/commerce, transportation, and manufacturing.",
+    description: "Lead edge security and content-delivery strategy for enterprise clients spanning food service, retail/commerce, transportation, and manufacturing, applying deep platform and headless architecture expertise, including AEM and Adobe Experience Cloud.",
     achievements: [
       "Design and develop edge compute applications using Akamai Functions to accelerate content delivery, enforce security policies, and optimize performance for CMS- and commerce-driven digital experiences",
       "Serve as the technical bridge between edge infrastructure and CMS/commerce platform teams, advising on caching strategy, API/webhook integrations, and reliability engineering (SLOs, monitoring, incident response)",
-      "Bring AEM and Adobe Experience Cloud domain expertise to edge engagements, helping enterprise clients harden and scale headless and hybrid content architectures against performance and security risk",
+      "Apply platform and digital-experience depth, including AEM and Adobe Experience Cloud, to edge engagements, helping enterprise clients harden and scale headless and hybrid content architectures against performance and security risk",
       "Building an AI engine that automates content offloading to NetStorage by object type and duration, optimizing storage cost and cache efficiency for high-traffic edge-delivered properties"
     ]
   },
@@ -23,9 +23,9 @@ const featuredExperiences = [
     company: "DEPT Agency",
     period: "Feb 2026 – May 2026",
     location: "Michigan, USA",
-    description: "Owned headless CMS and Adobe Experience Cloud strategy (AEM, Edge Delivery Services, Workfront, AJO, CJA, Adobe Analytics) across a portfolio of enterprise client engagements.",
+    description: "Owned platform and digital-experience strategy across a portfolio of enterprise client engagements, spanning headless CMS and Adobe Experience Cloud (AEM, Edge Delivery Services, Workfront, AJO, CJA, Adobe Analytics).",
     achievements: [
-      "Directed headless commerce integrations connecting AEM content architecture with Shopify storefronts, enabling rapid, multi-channel digital experience delivery for global clients including PwC, Oracle, and OpenAI",
+      "Directed headless commerce delivery for global clients including PwC, Oracle, and OpenAI, connecting AEM content architecture with Shopify storefronts for rapid, multi-channel digital experiences",
       "Led cross-functional teams and agency-client stakeholder relationships to deliver Adobe Experience Cloud programs spanning content architecture, personalization (Target, AJO), and analytics (CJA)",
       "Established governance and best practices for headless CMS and commerce integrations across AEM and Shopify, accelerating platform delivery for enterprise marketing and commerce teams",
       "Extended the Jira-driven AI agent factory across client engagements, built an AI engine that reads Figma files or existing sites to generate Adobe Edge Delivery Services building blocks, and built a RAG-based chat experience using vectorized site content"
@@ -36,11 +36,11 @@ const featuredExperiences = [
     company: "Ford Motor Company",
     period: "May 2024 – Feb 2026",
     location: "Michigan, USA",
-    description: "Led technical design, work planning, and delivery for AEM as a Cloud Service implementation on global marketing platforms, integrating Sites, Assets, Forms, and Edge Delivery Services.",
+    description: "Led engineering for global marketing platforms, driving technical design, work planning, and delivery for an AEM as a Cloud Service implementation across Sites, Assets, Forms, and Edge Delivery Services.",
     achievements: [
       "Achieved 40% scalability improvement and 95% on-time MVP delivery across AEM as a Cloud Service rollouts",
-      "Managed a team of engineers and architects, serving as subject matter expert owning the Adobe technology vertical and delivering solution design, platform selection, and thought leadership",
-      "Designed AEM solutions including component development, template design, workflows, and integrations with Adobe Target, AJO, and CJA, applying headless CMS principles for decoupled content delivery",
+      "Managed a team of engineers and architects, delivering solution design, platform selection, and thought leadership, serving as subject matter expert for the Adobe technology vertical",
+      "Designed headless CMS solutions, including component development, template design, and workflows, with AEM as the platform and integrations across Adobe Target, AJO, and CJA for decoupled content delivery",
       "Built and managed CI/CD pipelines with Docker, Kubernetes, and Jenkins, implementing performance monitoring and alerting for high availability and reliability",
       "Mentored Solution Architects and technical leads, offering architectural tradeoffs to stakeholders and driving adoption of agile methodologies and continuous delivery",
       "Built a factory of AI agents (via Model Context Protocol) that read Jira tickets and implement the frontend, backend, analytics-tracking, and test coverage each calls for, including AI-generated test cases, self-healing scripts, and visual regression checks"
@@ -51,7 +51,7 @@ const featuredExperiences = [
     company: "V2Soft Inc",
     period: "May 2016 – May 2024",
     location: "Michigan, USA",
-    description: "Directed full-cycle AEM as a Cloud Service projects for Fortune 500 retail and automotive clients in an agency/client-service environment, leading presales scoping, technical design, estimation, and delivery.",
+    description: "Directed engineering delivery for Fortune 500 retail and automotive clients in an agency/client-service environment, leading presales scoping, technical design, estimation, and delivery for full-cycle AEM as a Cloud Service projects.",
     achievements: [
       "Drove up to 700% YoY eCommerce growth through strategic technical delivery and presales leadership",
       "Enforced architectural standards while providing expert guidance on AEM architecture, headless capabilities (Java, OSGi, REST/GraphQL), content migration, and DAM workflows across enterprise engagements",

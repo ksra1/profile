@@ -1,18 +1,21 @@
 
 import { useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, FileDown } from 'lucide-react';
 import ScrollProgress from '@/components/motion/ScrollProgress';
 
 const sections = [
   { id: 'summary', label: 'Summary' },
   { id: 'highlights', label: 'Highlights' },
-  { id: 'industries', label: 'Industries' },
   { id: 'experience', label: 'Experience' },
   { id: 'skills', label: 'Skills' },
+  { id: 'leadership', label: 'Leadership' },
+  { id: 'work', label: 'Work' },
   { id: 'education', label: 'Education' },
   { id: 'contact', label: 'Contact' }
 ];
+
+const resumeHref = '/profile/resume/Sravan-Kollapudi-Resume.docx';
 
 const Nav = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -95,12 +98,25 @@ const Nav = () => {
           ))}
         </div>
 
-        <button
-          onClick={() => scrollToSection('contact')}
-          className="hidden md:inline-flex bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white text-sm font-semibold px-5 py-2 rounded-full shadow-md shadow-indigo-900/20 hover:shadow-lg hover:scale-105 transition-all duration-300"
-        >
-          Get In Touch
-        </button>
+        <div className="hidden md:flex items-center gap-2">
+          <a
+            href={resumeHref}
+            download
+            title="Download resume"
+            className={`p-2 rounded-full transition-colors ${
+              scrolled ? 'text-slate-600 hover:text-slate-900 hover:bg-slate-100' : 'text-slate-300 hover:text-white hover:bg-white/10'
+            }`}
+            aria-label="Download resume"
+          >
+            <FileDown className="w-5 h-5" />
+          </a>
+          <button
+            onClick={() => scrollToSection('contact')}
+            className="inline-flex bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white text-sm font-semibold px-5 py-2 rounded-full shadow-md shadow-indigo-900/20 hover:shadow-lg hover:scale-105 transition-all duration-300"
+          >
+            Get In Touch
+          </button>
+        </div>
 
         <button
           onClick={() => setMenuOpen((v) => !v)}
@@ -132,6 +148,14 @@ const Nav = () => {
                   {label}
                 </button>
               ))}
+              <a
+                href={resumeHref}
+                download
+                className="flex items-center gap-2 text-left px-3 py-2.5 rounded-lg text-base font-medium text-slate-600"
+              >
+                <FileDown className="w-4 h-4" />
+                Download Resume
+              </a>
             </div>
           </motion.div>
         )}

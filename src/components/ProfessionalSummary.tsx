@@ -30,8 +30,8 @@ const ProfessionalSummary = () => {
               <TiltCard className="relative rounded-3xl bg-gradient-to-br from-slate-950 via-indigo-950 to-slate-900 text-white p-8 flex flex-col justify-between shadow-xl shadow-indigo-950/30 overflow-hidden">
                 <div className="absolute -top-16 -right-16 w-48 h-48 bg-violet-600/30 rounded-full blur-3xl" />
                 <p className="relative text-2xl md:text-3xl font-bold leading-snug">
-                  Engineering leader who pairs deep AEM &amp; Adobe technical depth with proven team-building and
-                  delivery leadership - for Fortune 500 and global brands.
+                  Platform engineering leader with 22+ years building teams and systems, bringing deep domain
+                  expertise in CMS and digital experience to Fortune 500 and global brands.
                 </p>
                 <div className="relative flex flex-wrap gap-2 mt-6">
                   <span className="px-3 py-1 rounded-full bg-white/10 border border-white/20 text-xs font-medium text-slate-200">
@@ -50,7 +50,7 @@ const ProfessionalSummary = () => {
             {/* Years */}
             <TiltCard glowColor="rgba(79,70,229,0.10)" className="rounded-3xl bg-white border border-slate-200 p-6 flex flex-col justify-center shadow-sm hover:shadow-xl hover:shadow-indigo-900/10 hover:border-indigo-200 transition-shadow duration-300">
               <div className="text-4xl font-extrabold font-display text-slate-900">22+</div>
-              <div className="text-sm text-slate-500 mt-1">Years in AEM &amp; Digital Leadership</div>
+              <div className="text-sm text-slate-500 mt-1">Years Engineering Leadership</div>
             </TiltCard>
 
             {/* Growth */}
