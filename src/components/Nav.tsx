@@ -15,7 +15,7 @@ const sections = [
   { id: 'contact', label: 'Contact' }
 ];
 
-const resumeHref = '/profile/resume/Sravan-Kollapudi-Resume.docx';
+const resumeHref = '/profile/resume/Sravan-Kollapudi-Resume.pdf';
 
 const Nav = () => {
   const [scrolled, setScrolled] = useState(false);

@@ -16,8 +16,8 @@ const links = [
     icon: <FileDown className="w-7 h-7" />,
     title: "Resume",
     description: "Full work history as a downloadable document.",
-    cta: "Download .docx",
-    href: "/profile/resume/Sravan-Kollapudi-Resume.docx",
+    cta: "Download PDF",
+    href: "/profile/resume/Sravan-Kollapudi-Resume.pdf",
     download: true
   }
 ];
