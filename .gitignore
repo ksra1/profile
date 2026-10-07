@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Source resume files (contain personal contact info) - only the
+# redacted PDF in public/resume/ is meant to be published
+/*.docx
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

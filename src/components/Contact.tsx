@@ -1,6 +1,6 @@
 
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, LinkedinIcon } from 'lucide-react';
+import { Phone, MapPin, LinkedinIcon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { fadeUpContainer, fadeUpItem } from '@/lib/motion';
 import TiltCard from '@/components/motion/TiltCard';
@@ -9,12 +9,6 @@ import CursorGlow from '@/components/motion/CursorGlow';
 import Magnetic from '@/components/motion/Magnetic';
 
 const contactInfo = [
-  {
-    icon: <Mail className="w-6 h-6" />,
-    label: "Email",
-    value: "sravan.kollapudi@gmail.com",
-    href: "mailto:sravan.kollapudi@gmail.com"
-  },
   {
     icon: <Phone className="w-6 h-6" />,
     label: "Phone",
@@ -58,7 +52,7 @@ const Contact = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
-            className="grid md:grid-cols-2 gap-6 mb-12"
+            className="grid sm:grid-cols-3 gap-6 mb-12"
             style={{ perspective: 1200 }}
           >
             {contactInfo.map((contact, index) => (
@@ -107,7 +101,9 @@ const Contact = () => {
                     asChild
                     className="bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white px-8 py-3 text-lg shadow-lg shadow-indigo-900/40 transition-all duration-300"
                   >
-                    <a href="mailto:sravan.kollapudi@gmail.com">Send Email</a>
+                    <a href="https://www.linkedin.com/in/skk1/" target="_blank" rel="noopener noreferrer">
+                      Message on LinkedIn
+                    </a>
                   </Button>
                 </Magnetic>
               </div>

@@ -1,6 +1,6 @@
 
 import { motion } from 'framer-motion';
-import { ArrowDown, MapPin, Mail, Phone, Sparkles, Github, Linkedin } from 'lucide-react';
+import { ArrowDown, MapPin, Phone, Sparkles, Github, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { fadeUpContainer, fadeUpItem } from '@/lib/motion';
 import Aurora from '@/components/motion/Aurora';
@@ -55,7 +55,6 @@ const Hero = () => {
 
           <motion.div variants={fadeUpItem} className="flex flex-wrap justify-center items-center gap-3 mb-12">
             {[
-              { icon: Mail, label: 'sravan.kollapudi@gmail.com', href: 'mailto:sravan.kollapudi@gmail.com' },
               { icon: Phone, label: '586-202-4673', href: 'tel:+15862024673' },
               { icon: MapPin, label: 'Michigan, USA' },
               { icon: Github, label: 'GitHub', href: 'https://github.com/ksra1' },
