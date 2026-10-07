@@ -32,7 +32,8 @@ const skillCategories = [
       "Java/J2EE, Spring Boot",
       "Apache Sling, OSGi",
       "CI/CD (Jenkins, Maven, Docker, Kubernetes)",
-      "AWS, Google Cloud",
+      "AWS",
+      "Google Cloud Platform (GCP)",
       "Observability & Monitoring"
     ]
   },

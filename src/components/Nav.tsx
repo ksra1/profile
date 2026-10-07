@@ -75,12 +75,12 @@ const Nav = () => {
           </span>
         </button>
 
-        <div className="hidden md:flex items-center gap-1">
+        <div className="hidden xl:flex items-center gap-1">
           {sections.map(({ id, label }) => (
             <button
               key={id}
               onClick={() => scrollToSection(id)}
-              className={`relative px-4 py-2 text-sm font-medium rounded-full transition-colors ${
+              className={`relative px-3 py-2 text-sm font-medium rounded-full transition-colors ${
                 scrolled ? 'text-slate-600 hover:text-slate-900' : 'text-slate-300 hover:text-white'
               } ${active === id ? (scrolled ? '!text-slate-900' : '!text-white') : ''}`}
             >
@@ -98,17 +98,17 @@ const Nav = () => {
           ))}
         </div>
 
-        <div className="hidden md:flex items-center gap-2">
+        <div className="hidden xl:flex items-center gap-2">
           <a
             href={resumeHref}
             download
             title="Download resume"
-            className={`p-2 rounded-full transition-colors ${
+            className={`inline-flex items-center gap-1.5 px-3 py-2 rounded-full text-sm font-medium transition-colors ${
               scrolled ? 'text-slate-600 hover:text-slate-900 hover:bg-slate-100' : 'text-slate-300 hover:text-white hover:bg-white/10'
             }`}
-            aria-label="Download resume"
           >
-            <FileDown className="w-5 h-5" />
+            <FileDown className="w-4 h-4" />
+            Resume
           </a>
           <button
             onClick={() => scrollToSection('contact')}
@@ -120,7 +120,7 @@ const Nav = () => {
 
         <button
           onClick={() => setMenuOpen((v) => !v)}
-          className={`md:hidden p-2 rounded-full transition-colors ${scrolled ? 'text-slate-900' : 'text-white'}`}
+          className={`xl:hidden p-2 rounded-full transition-colors ${scrolled ? 'text-slate-900' : 'text-white'}`}
           aria-label="Toggle menu"
         >
           {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -134,7 +134,7 @@ const Nav = () => {
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.25, ease: 'easeOut' }}
-            className="md:hidden bg-white/95 backdrop-blur-md border-b border-slate-200/70 shadow-sm overflow-hidden"
+            className="xl:hidden bg-white/95 backdrop-blur-md border-b border-slate-200/70 shadow-sm overflow-hidden"
           >
             <div className="container mx-auto px-6 py-4 flex flex-col gap-1">
               {sections.map(({ id, label }) => (
